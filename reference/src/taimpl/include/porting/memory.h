@@ -121,6 +121,7 @@ void* memory_memset_unoptimizable(
         uint8_t value,
         size_t size);
 
+#ifndef DISABLE_SVP
 /**
  * Checks if all of the bytes between memory_location and memory_location+size are in SVP memory.
  *
@@ -131,6 +132,7 @@ void* memory_memset_unoptimizable(
 bool memory_is_valid_svp(
         void* memory_location,
         size_t size);
+#endif
 
 /**
  * Checks if all of the bytes between memory_location and memory_location+size are in non-SVP memory.

@@ -67,6 +67,7 @@ void* memory_memset_unoptimizable(void* destination, uint8_t value, size_t size)
     return destination;
 }
 
+#ifndef DISABLE_SVP
 bool memory_is_valid_svp(
         void* memory_location,
         size_t size) {
@@ -86,6 +87,7 @@ bool memory_is_valid_svp(
     // space.
     return true;
 }
+#endif
 
 bool memory_is_valid_clear(
         void* memory_location,

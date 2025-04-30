@@ -15,7 +15,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include "cenc.h" // NOLINT
 #include "buffer.h"
 #include "common.h"
@@ -301,25 +300,31 @@ sa_status cenc_process_sample(
         }
 
         if (status == SA_STATUS_OK) {
-            if (sample->in->buffer_type == SA_BUFFER_TYPE_SVP)
+            if (sample->in->buffer_type == SA_BUFFER_TYPE_SVP) {
+#ifndef DISABLE_SVP
                 sample->in->context.svp.offset += offset;
-            else
+#endif
+	    } else {
                 sample->in->context.clear.offset += offset;
+	    }
 
-            if (sample->out->buffer_type == SA_BUFFER_TYPE_SVP)
+            if (sample->out->buffer_type == SA_BUFFER_TYPE_SVP) {
+#ifndef DISABLE_SVP
                 sample->out->context.svp.offset += offset;
-            else
+#endif
+	    } else {
                 sample->out->context.clear.offset += offset;
+	    }
         }
     } while (false);
-
+#ifndef DISABLE_SVP
     if (in_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), sample->in->context.svp.buffer, in_svp, caller_uuid);
 
     if (out_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), sample->out->context.svp.buffer, out_svp,
                 caller_uuid);
-
+#endif
     if (cipher != NULL)
         cipher_store_release_exclusive(cipher_store, sample->context, cipher, caller_uuid);
 

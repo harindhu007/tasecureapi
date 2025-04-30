@@ -80,7 +80,7 @@ namespace ta_test_helpers {
     std::shared_ptr<sa_buffer> buffer_alloc(
             sa_buffer_type buffer_type,
             std::vector<uint8_t>& initial_value);
-
+#ifndef DISABLE_SVP
     /**
      * Allocates SVP memory from inside the test TA.
      *
@@ -99,6 +99,7 @@ namespace ta_test_helpers {
      * @return the status of the operation.
      */
     sa_status ta_sa_svp_memory_free(void* svp_memory);
+#endif // DISABLE_SVP
 } // namespace ta_test_helpers
 
 #endif // TA_TEST_HELPERS_H

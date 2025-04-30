@@ -265,7 +265,9 @@ bool ProcessCommonEncryptionBase::build_samples(
 
     if (sample_data.in->buffer_type == SA_BUFFER_TYPE_CLEAR) {
         memcpy(sample_data.in->context.clear.buffer, in.data(), in.size());
-    } else {
+    } 
+#ifndef DISABLE_SVP
+    else {
         if (svp_buffer_write(sample_data.in->context.svp.buffer, in.data(), in.size()) != SA_STATUS_OK) {
             ERROR("svp_buffer_write");
             return false;
@@ -273,6 +275,7 @@ bool ProcessCommonEncryptionBase::build_samples(
 
         sample_data.in->context.svp.offset = 0;
     }
+#endif // DISABLE_SVP
 
     for (sa_sample& sample : samples)
         sample.in = sample_data.in.get();

@@ -287,7 +287,7 @@ namespace {
             GTEST_SKIP() << "Cipher algorithm not supported";
 
         // encrypt using OpenSSL
-        auto clear = random(34);
+        auto clear = random(static_cast<size_t>(AES_BLOCK_SIZE) * 2);
 
         auto encrypted = encrypt_openssl(clear, parameters);
         ASSERT_FALSE(encrypted.empty());
@@ -344,11 +344,11 @@ namespace {
         status = sa_crypto_cipher_process(out_buffer.get(), *cipher, in_buffer.get(), &bytes_to_process);
         ASSERT_EQ(status, SA_STATUS_INVALID_PARAMETER);
     }
-
+#ifndef DISABLE_SVP
     TEST_F(SaCryptoCipherWithoutSvpTest, initAesGcmFailsSvpIn) {
         if (sa_svp_supported() == SA_STATUS_OPERATION_NOT_SUPPORTED)
             GTEST_SKIP() << "SVP not supported. Skipping all SVP tests";
-
+	
         auto clear_key = random(SYM_128_KEY_SIZE);
 
         sa_rights rights;
@@ -418,4 +418,5 @@ namespace {
         status = sa_crypto_cipher_process(out_buffer.get(), *cipher, in_buffer.get(), &bytes_to_process);
         ASSERT_EQ(status, SA_STATUS_OPERATION_NOT_ALLOWED);
     }
+#endif // DISABLE_SVP
 } // namespace

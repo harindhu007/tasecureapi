@@ -1,0 +1,959 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/fldengr/hsrini103/tasecureapi/reference/src/taimpl/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+AES_128_GCM	src/internal/soc_key_container.c	/^#define AES_128_GCM /;"	d	file:
+AES_CBC_NONE	src/internal/typej.c	/^#define AES_CBC_NONE /;"	d	file:
+AES_CBC_PKCS5	src/internal/typej.c	/^#define AES_CBC_PKCS5 /;"	d	file:
+AES_ECB_NONE	src/internal/typej.c	/^#define AES_ECB_NONE /;"	d	file:
+AES_ECB_PKCS5	src/internal/typej.c	/^#define AES_ECB_PKCS5 /;"	d	file:
+AES_SUBTYPE	include/internal/rights.h	/^    AES_SUBTYPE,$/;"	e	enum:__anoned9b6ecb0203
+ALL_MATCH	src/internal/rights.c	/^const sa_uuid ALL_MATCH = {$/;"	v	typeref:typename:const sa_uuid
+BLOCK_BIT	src/internal/slots.c	/^#define BLOCK_BIT(/;"	d	file:
+BLOCK_BITMASK	src/internal/slots.c	/^#define BLOCK_BITMASK(/;"	d	file:
+BLOCK_IDX	src/internal/slots.c	/^#define BLOCK_IDX(/;"	d	file:
+BUFFER_H	include/internal/buffer.h	/^#define BUFFER_H$/;"	d
+CENC_H	include/internal/cenc.h	/^#define CENC_H$/;"	d
+CENC_OVERFLOW	include/internal/cenc.h	/^#define CENC_OVERFLOW /;"	d
+CHACHA20_SUBTYPE	include/internal/rights.h	/^    CHACHA20_SUBTYPE$/;"	e	enum:__anoned9b6ecb0203
+CHECK_NOT_TA_PARAM_IN	src/internal/ta.c	/^#define CHECK_NOT_TA_PARAM_IN(/;"	d	file:
+CHECK_NOT_TA_PARAM_INOUT	src/internal/ta.c	/^#define CHECK_NOT_TA_PARAM_INOUT(/;"	d	file:
+CHECK_NOT_TA_PARAM_NULL	src/internal/ta.c	/^#define CHECK_NOT_TA_PARAM_NULL(/;"	d	file:
+CHECK_NOT_TA_PARAM_OUT	src/internal/ta.c	/^#define CHECK_NOT_TA_PARAM_OUT(/;"	d	file:
+CHECK_TA_PARAM_IN	src/internal/ta.c	/^#define CHECK_TA_PARAM_IN(/;"	d	file:
+CHECK_TA_PARAM_INOUT	src/internal/ta.c	/^#define CHECK_TA_PARAM_INOUT(/;"	d	file:
+CHECK_TA_PARAM_NULL	src/internal/ta.c	/^#define CHECK_TA_PARAM_NULL(/;"	d	file:
+CIPHER_STORE_H	include/internal/cipher_store.h	/^#define CIPHER_STORE_H$/;"	d
+CLIENT_STORE_H	include/internal/client_store.h	/^#define CLIENT_STORE_H$/;"	d
+CMAC_CONTEXT_H	include/internal/cmac_context.h	/^#define CMAC_CONTEXT_H$/;"	d
+CMAKE_CXX_CLANG_TIDY	CMakeLists.txt	/^        set(CMAKE_CXX_CLANG_TIDY ${CLANG_TIDY_COMMAND}; )$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^	set(CMAKE_CXX_FLAGS "-DDISABLE_SVP ${CMAKE_CXX_FLAGS}")$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^    set(CMAKE_CXX_FLAGS "-DDISABLE_CENC_1000000_TESTS ${CMAKE_CXX_FLAGS}")$/;"	v
+CMAKE_CXX_FLAGS	CMakeLists.txt	/^    set(CMAKE_CXX_FLAGS "-DSA_LOG_LEVEL=${SA_LOG_LEVEL} ${CMAKE_CXX_FLAGS}")$/;"	v
+CMAKE_C_CLANG_TIDY	CMakeLists.txt	/^        set(CMAKE_C_CLANG_TIDY ${CLANG_TIDY_COMMAND}; )$/;"	v
+CMAKE_C_FLAGS	CMakeLists.txt	/^	set(CMAKE_C_FLAGS "-DDISABLE_SVP ${CMAKE_C_FLAGS}")$/;"	v
+CMAKE_C_FLAGS	CMakeLists.txt	/^    set(CMAKE_C_FLAGS "-DDISABLE_CENC_1000000_TESTS ${CMAKE_C_FLAGS}")$/;"	v
+CMAKE_C_FLAGS	CMakeLists.txt	/^    set(CMAKE_C_FLAGS "-DSA_LOG_LEVEL=${SA_LOG_LEVEL} ${CMAKE_C_FLAGS}")$/;"	v
+CMAKE_MODULE_PATH	CMakeLists.txt	/^set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}\/cmake" ${CMAKE_MODULE_PATH})$/;"	v
+COMMON	include/porting/otp.h	/^    COMMON$/;"	e	enum:__anon3fac37330103
+COMMON_STR	src/internal/soc_key_container.c	/^#define COMMON_STR /;"	d	file:
+DATA_ONLY	include/internal/rights.h	/^    DATA_ONLY = 1,$/;"	e	enum:__anoned9b6ecb0103
+DH_H	include/internal/dh.h	/^#define DH_H$/;"	d
+DIGEST_H	include/internal/digest.h	/^#define DIGEST_H$/;"	d
+DIGEST_MAX_LENGTH	include/internal/digest.h	/^#define DIGEST_MAX_LENGTH /;"	d
+EC_H	include/internal/ec.h	/^#define EC_H$/;"	d
+EC_KEY_SIZE	src/internal/ec.c	/^#define EC_KEY_SIZE(/;"	d	file:
+Environment	test/environment.cpp	/^class Environment : public ::testing::Environment {$/;"	c	file:
+HMAC_CONTEXT_H	include/internal/hmac_context.h	/^#define HMAC_CONTEXT_H$/;"	d
+HMAC_INTERNAL_H	include/internal/hmac_internal.h	/^#define HMAC_INTERNAL_H$/;"	d
+HMAC_SUBTYPE	include/internal/rights.h	/^    HMAC_SUBTYPE,$/;"	e	enum:__anoned9b6ecb0203
+INIT_H	include/porting/init.h	/^#define INIT_H$/;"	d
+JSON_H	include/internal/json.h	/^#define JSON_H$/;"	d
+JSON_TYPE_ARRAY	include/internal/json.h	/^    JSON_TYPE_ARRAY,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_BOOL	include/internal/json.h	/^    JSON_TYPE_BOOL = 0,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_DOUBLE	include/internal/json.h	/^    JSON_TYPE_DOUBLE,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_INT	include/internal/json.h	/^    JSON_TYPE_INT,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_MAP	include/internal/json.h	/^    JSON_TYPE_MAP,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_NUMBER	include/internal/json.h	/^    JSON_TYPE_NUMBER,$/;"	e	enum:__anond55ceab40103
+JSON_TYPE_STRING	include/internal/json.h	/^    JSON_TYPE_STRING$/;"	e	enum:__anond55ceab40103
+KDF_H	include/internal/kdf.h	/^#define KDF_H$/;"	d
+KEY_ONLY	include/internal/rights.h	/^    KEY_ONLY = 2,$/;"	e	enum:__anoned9b6ecb0103
+KEY_ONLY_MASK	src/internal/stored_key.c	/^#define KEY_ONLY_MASK /;"	d	file:
+KEY_STORE_H	include/internal/key_store.h	/^#define KEY_STORE_H$/;"	d
+KEY_TYPE_H	include/internal/key_type.h	/^#define KEY_TYPE_H$/;"	d
+MAC_STORE_H	include/internal/mac_store.h	/^#define MAC_STORE_H$/;"	d
+MAX_AAD_SIZE	src/internal/soc_key_container.c	/^#define MAX_AAD_SIZE /;"	d	file:
+MAX_CLIENT_SLOTS	test/ta_test_helpers.h	/^#define MAX_CLIENT_SLOTS /;"	d
+MAX_DEVICE_NAME_LENGTH	src/porting/otp.c	/^#define MAX_DEVICE_NAME_LENGTH /;"	d	file:
+MAX_EC_SIGNATURE	src/internal/ec.c	/^#define MAX_EC_SIGNATURE /;"	d	file:
+MAX_KEY_LENGTH	src/internal/json.c	/^#define MAX_KEY_LENGTH /;"	d	file:
+MEMORY_H	include/porting/memory.h	/^#define MEMORY_H$/;"	d
+MIN	src/internal/cenc.c	/^#define MIN(/;"	d	file:
+NETFLIX_H	include/internal/netflix.h	/^#define NETFLIX_H$/;"	d
+NO_MATCH	src/internal/rights.c	/^const sa_uuid NO_MATCH = {$/;"	v	typeref:typename:const sa_uuid
+NUM_CIPHER_SLOTS	src/internal/client_store.c	/^#define NUM_CIPHER_SLOTS /;"	d	file:
+NUM_CLIENT_SLOTS	src/internal/client_store.c	/^#define NUM_CLIENT_SLOTS /;"	d	file:
+NUM_KEY_SLOTS	src/internal/client_store.c	/^#define NUM_KEY_SLOTS /;"	d	file:
+NUM_MAC_SLOTS	src/internal/client_store.c	/^#define NUM_MAC_SLOTS /;"	d	file:
+NUM_SVP_SLOTS	src/internal/client_store.c	/^#define NUM_SVP_SLOTS /;"	d	file:
+NUM_TA_PARAMS	include/ta.h	/^#define NUM_TA_PARAMS /;"	d
+OBJECT_STORE_H	include/internal/object_store.h	/^#define OBJECT_STORE_H$/;"	d
+OTP_H	include/porting/otp.h	/^#define OTP_H$/;"	d
+OTP_INTERNAL_H	include/porting/otp_internal.h	/^#define OTP_INTERNAL_H$/;"	d
+OVERFLOW_H	include/porting/overflow.h	/^#define OVERFLOW_H$/;"	d
+PADDED_SIZE	include/internal/pad.h	/^#define PADDED_SIZE(/;"	d
+PADDED_SIZE	test/ta_sa_svp_crypto.cpp	/^#define PADDED_SIZE(/;"	d	file:
+PAD_H	include/internal/pad.h	/^#define PAD_H$/;"	d
+PRIVATE_SUBTYPE	include/internal/rights.h	/^    PRIVATE_SUBTYPE = 0,$/;"	e	enum:__anoned9b6ecb0203
+RAND_H	include/porting/rand.h	/^#define RAND_H$/;"	d
+REE_UUID	src/porting/transport.c	/^static sa_uuid REE_UUID = {$/;"	v	typeref:typename:sa_uuid	file:
+RIGHTS_H	include/internal/rights.h	/^#define RIGHTS_H$/;"	d
+RSA_H	include/internal/rsa.h	/^#define RSA_H$/;"	d
+RSA_INTERNAL_H	include/internal/rsa_internal.h	/^#define RSA_INTERNAL_H$/;"	d
+SAIMPL_H	include/internal/saimpl.h	/^#define SAIMPL_H$/;"	d
+SA_IMPLEMENTATION_NAME	src/internal/saimpl.c	/^#define SA_IMPLEMENTATION_NAME /;"	d	file:
+SA_IMPLEMENTATION_REVISION	src/internal/saimpl.c	/^#define SA_IMPLEMENTATION_REVISION /;"	d	file:
+SLOTS_H	include/internal/slots.h	/^#define SLOTS_H$/;"	d
+SLOT_INVALID	include/internal/slots.h	/^#define SLOT_INVALID /;"	d
+SOC_CONTAINER_VERSION	src/internal/soc_key_container.c	/^#define SOC_CONTAINER_VERSION /;"	d	file:
+SOC_DATA_AND_KEY	include/internal/rights.h	/^    SOC_DATA_AND_KEY = 3$/;"	e	enum:__anoned9b6ecb0103
+SOC_KEY_CONTAINER_H	include/internal/soc_key_container.h	/^#define SOC_KEY_CONTAINER_H$/;"	d
+STORED_KEY_H	include/internal/stored_key.h	/^#define STORED_KEY_H$/;"	d
+STORED_KEY_INTERNAL_H	include/internal/stored_key_internal.h	/^#define STORED_KEY_INTERNAL_H$/;"	d
+SUBSAMPLE_SIZE	test/ta_sa_svp_crypto.cpp	/^#define SUBSAMPLE_SIZE /;"	d	file:
+SVP_H	include/porting/svp.h	/^#define SVP_H$/;"	d
+SVP_STORE_H	include/internal/svp_store.h	/^#define SVP_STORE_H$/;"	d
+SYMMETRIC_H	include/internal/symmetric.h	/^#define SYMMETRIC_H$/;"	d
+SetUp	test/environment.cpp	/^    void SetUp() override {$/;"	f	class:Environment	typeref:typename:void	file:
+SetUp	test/ta_sa_svp_common.cpp	/^void TaSvpBase::SetUp() {$/;"	f	class:TaSvpBase	typeref:typename:void
+SetUp	test/ta_sa_svp_crypto.cpp	/^void TaCryptoCipherTest::SetUp() {$/;"	f	class:TaCryptoCipherTest	typeref:typename:void
+SetUp	test/ta_sa_svp_crypto.cpp	/^void TaProcessCommonEncryptionTest::SetUp() {$/;"	f	class:TaProcessCommonEncryptionTest	typeref:typename:void
+TA_H	include/ta.h	/^#define TA_H$/;"	d
+TA_SA_CENC_H	include/ta_sa_cenc.h	/^#define TA_SA_CENC_H$/;"	d
+TA_SA_CRYPTO_H	include/ta_sa_crypto.h	/^#define TA_SA_CRYPTO_H$/;"	d
+TA_SA_H	include/ta_sa.h	/^#define TA_SA_H$/;"	d
+TA_SA_KEY_H	include/ta_sa_key.h	/^#define TA_SA_KEY_H$/;"	d
+TA_SA_SVP_COMMON_H	test/ta_sa_svp_common.h	/^#define TA_SA_SVP_COMMON_H$/;"	d
+TA_SA_SVP_CRYPTO_H	test/ta_sa_svp_crypto.h	/^#define TA_SA_SVP_CRYPTO_H$/;"	d
+TA_SA_SVP_H	include/ta_sa_svp.h	/^#define TA_SA_SVP_H$/;"	d
+TA_SA_TYPES_H	include/ta_sa_types.h	/^#define TA_SA_TYPES_H$/;"	d
+TA_TEST_HELPERS_H	test/ta_test_helpers.h	/^#define TA_TEST_HELPERS_H$/;"	d
+TEST	test/json.cpp	/^    TEST(Json, parseArrayEmpty) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseArrayInt) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseBoolFalse) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseBoolTrue) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseDouble) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseInt) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseMapEmpty) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseMapSimple) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseNested) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseNull) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/json.cpp	/^    TEST(Json, parseString) {$/;"	f	namespace:__anon46d0ebbf0111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreAcquire, failsWithInvalidUuid) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreAcquire, nominal) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreAdd, failsWhenFull) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreAdd, nominal) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreInit, failsOnInvalidNumSlots) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreInit, nominal) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreRemove, nominal) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreShutdown, noThrowOnNull) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/object_store.cpp	/^    TEST(ObjectStoreSize, nominal) {$/;"	f	namespace:__anon43e2c4880111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedTime, future) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedTime, past) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedTime, valid) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, allowall) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, analogcgmsafail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, analogcgmsaok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, analogunprotectedfail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, analogunprotectedok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalhdcp14fail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalhdcp14ok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalhdcp22fail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalhdcp22ok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalunprotectedfail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, digitalunprotectedok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, svprequiredfail) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/rights.cpp	/^    TEST(RightsAllowedVideoOutputState, svprequiredok) {$/;"	f	namespace:__anon468d2d960111
+TEST	test/slots.cpp	/^    TEST(SlotsAllocate, failonmaxplusone) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/slots.cpp	/^    TEST(SlotsAllocate, nominal) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/slots.cpp	/^    TEST(SlotsFree, doublemax) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/slots.cpp	/^    TEST(SlotsInit, invalidnumberOfSlots) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/slots.cpp	/^    TEST(SlotsInit, nominal) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/slots.cpp	/^    TEST(SlotsShutdown, null) {$/;"	f	namespace:__anond643d21a0111
+TEST	test/ta_sa_init.cpp	/^    TEST(TaSaInit, nominalNoAvailableResourceSlot) {$/;"	f	namespace:__anon785954400111
+TEST_F	test/ta_sa_svp_buffer_check.cpp	/^    TEST_F(TaSvpBufferCheckTest, failsHashWrongSize) {$/;"	f	namespace:__anond6d356db0111
+TEST_F	test/ta_sa_svp_buffer_check.cpp	/^    TEST_F(TaSvpBufferCheckTest, failsInvalidBuffer) {$/;"	f	namespace:__anond6d356db0111
+TEST_F	test/ta_sa_svp_buffer_check.cpp	/^    TEST_F(TaSvpBufferCheckTest, failsInvalidSize) {$/;"	f	namespace:__anond6d356db0111
+TEST_F	test/ta_sa_svp_buffer_check.cpp	/^    TEST_F(TaSvpBufferCheckTest, failsNullHash) {$/;"	f	namespace:__anond6d356db0111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsInBufferTooSmall) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsInvalidIn) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsInvalidOut) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsNullOffset) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsOffsetOverflow) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_F(TaSvpBufferCopyTest, failsOutBufferTooSmall) {$/;"	f	namespace:__anon252aa8580111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsInOffsetOverflow) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsInvalidOut) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsNullIn) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsNullOutOffset) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsOutBufferTooSmall) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_buffer_write.cpp	/^    TEST_F(TaSvpBufferWriteTest, failsOutOffsetOverflow) {$/;"	f	namespace:__anon86428e680111
+TEST_F	test/ta_sa_svp_crypto.cpp	/^    TEST_F(TaProcessCommonEncryptionTest, failsInBufferOverflow) {$/;"	f	namespace:__anon3173dd050111
+TEST_F	test/ta_sa_svp_crypto.cpp	/^    TEST_F(TaProcessCommonEncryptionTest, failsOutBufferOverflow) {$/;"	f	namespace:__anon3173dd050111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, failInvalidBytesToProcess) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, failInvalidExpected) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, failKeyCheck) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, failNullExpected) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, failNullIn) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, nominal) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_F	test/ta_sa_svp_key_check.cpp	/^    TEST_F(TaSvpKeyCheckTest, nominalSvp) {$/;"	f	namespace:__anon2ae4288a0111
+TEST_P	test/ta_sa_svp_buffer_check.cpp	/^    TEST_P(TaSvpBufferCheckTest, failsHashMismatch) {$/;"	f	namespace:__anond6d356db0111
+TEST_P	test/ta_sa_svp_buffer_check.cpp	/^    TEST_P(TaSvpBufferCheckTest, nominal) {$/;"	f	namespace:__anond6d356db0111
+TEST_P	test/ta_sa_svp_buffer_copy.cpp	/^    TEST_P(TaSvpBufferCopyTest, nominal) {$/;"	f	namespace:__anon252aa8580111
+TEST_P	test/ta_sa_svp_buffer_write.cpp	/^    TEST_P(TaSvpBufferWriteTest, nominal) {$/;"	f	namespace:__anon86428e680111
+TEST_P	test/ta_sa_svp_crypto.cpp	/^    TEST_P(TaCryptoCipherTest, processFailsInOffsetOverflow) {$/;"	f	namespace:__anon3173dd050111
+TEST_P	test/ta_sa_svp_crypto.cpp	/^    TEST_P(TaCryptoCipherTest, processFailsOutOffsetOverflow) {$/;"	f	namespace:__anon3173dd050111
+TEST_P	test/ta_sa_svp_crypto.cpp	/^    TEST_P(TaCryptoCipherTest, processNominal) {$/;"	f	namespace:__anon3173dd050111
+TEST_P	test/ta_sa_svp_crypto.cpp	/^    TEST_P(TaProcessCommonEncryptionTest, nominal) {$/;"	f	namespace:__anon3173dd050111
+TRANSPORT_H	include/porting/transport.h	/^#define TRANSPORT_H$/;"	d
+TYPEJ_DATA_AND_KEY	include/internal/rights.h	/^    TYPEJ_DATA_AND_KEY = 0,$/;"	e	enum:__anoned9b6ecb0103
+TYPEJ_H	include/internal/typej.h	/^#define TYPEJ_H$/;"	d
+TYPEJ_RIGHT_ANALOG_OUTPUT_ALLOWED	src/internal/typej.c	/^    TYPEJ_RIGHT_ANALOG_OUTPUT_ALLOWED = 0x05,$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_CGMSA_REQUIRED	src/internal/typej.c	/^    TYPEJ_RIGHT_CGMSA_REQUIRED = 0x08$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_DIGITAL_OPL_DTCP_ALLOWED	src/internal/typej.c	/^    TYPEJ_RIGHT_DIGITAL_OPL_DTCP_ALLOWED = 0x02,$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_DIGITAL_OPL_HDCP_1_4_ALLOWED	src/internal/typej.c	/^    TYPEJ_RIGHT_DIGITAL_OPL_HDCP_1_4_ALLOWED = 0x03,$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_DIGITAL_OPL_HDCP_2_2_ALLOWED	src/internal/typej.c	/^    TYPEJ_RIGHT_DIGITAL_OPL_HDCP_2_2_ALLOWED = 0x04,$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_NOT_SET	src/internal/typej.c	/^    TYPEJ_RIGHT_NOT_SET = 0x00,$/;"	e	enum:__anona3e2ede50103	file:
+TYPEJ_RIGHT_SVP_REQUIRED	src/internal/typej.c	/^    TYPEJ_RIGHT_SVP_REQUIRED = 0x01,$/;"	e	enum:__anona3e2ede50103	file:
+TaCryptoCipherBase	test/ta_sa_svp_crypto.h	/^class TaCryptoCipherBase {$/;"	c
+TaCryptoCipherTest	test/ta_sa_svp_crypto.h	/^class TaCryptoCipherTest : public ::testing::TestWithParam<TaCryptoCipherTestType>, public TaCry/;"	c
+TaCryptoCipherTestType	test/ta_sa_svp_crypto.h	/^typedef std::tuple<sa_cipher_algorithm, sa_cipher_mode, size_t, size_t> TaCryptoCipherTestType;$/;"	t	typeref:typename:std::tuple<sa_cipher_algorithm,sa_cipher_mode,size_t,size_t>
+TaProcessCommonEncryptionTest	test/ta_sa_svp_crypto.h	/^class TaProcessCommonEncryptionTest : public ::testing::TestWithParam<TaProcessCommonEncryptionT/;"	c
+TaProcessCommonEncryptionType	test/ta_sa_svp_crypto.h	/^using TaProcessCommonEncryptionType =$/;"	t	typeref:typename:std::tuple<std::tuple<size_t,int64_t>,size_t,size_t,size_t,sa_cipher_algorithm>
+TaSvpBase	test/ta_sa_svp_common.h	/^class TaSvpBase : public ::testing::Test {$/;"	c
+TaSvpBufferCheckTest	test/ta_sa_svp_common.h	/^class TaSvpBufferCheckTest : public ::testing::WithParamInterface<sa_digest_algorithm>, public T/;"	c
+TaSvpBufferCopyTest	test/ta_sa_svp_common.h	/^class TaSvpBufferCopyTest : public ::testing::WithParamInterface<TaSvpBufferTestType>, public Ta/;"	c
+TaSvpBufferTestType	test/ta_sa_svp_common.h	/^typedef std::tuple<long> TaSvpBufferTestType; \/\/ NOLINT$/;"	t	typeref:typename:std::tuple<long>
+TaSvpBufferWriteTest	test/ta_sa_svp_common.h	/^class TaSvpBufferWriteTest : public ::testing::WithParamInterface<TaSvpBufferTestType>, public T/;"	c
+TaSvpKeyCheckTest	test/ta_sa_svp_common.h	/^class TaSvpKeyCheckTest : public TaSvpBase, public TaCryptoCipherBase {};$/;"	c
+TearDown	test/environment.cpp	/^    void TearDown() override {$/;"	f	class:Environment	typeref:typename:void	file:
+UNDEFINED	include/porting/otp.h	/^    UNDEFINED = 0,$/;"	e	enum:__anon3fac37330103
+UNIQUE	include/porting/otp.h	/^    UNIQUE,$/;"	e	enum:__anon3fac37330103
+UNIQUE_STR	src/internal/soc_key_container.c	/^#define UNIQUE_STR /;"	d	file:
+UNWRAP_H	include/internal/unwrap.h	/^#define UNWRAP_H$/;"	d
+UUID_LENGTH	include/internal/rights.h	/^#define UUID_LENGTH /;"	d
+VIDEO_OUTPUT_H	include/porting/video_output.h	/^#define VIDEO_OUTPUT_H$/;"	d
+YAJL_FOUND	cmake/FindYAJL.cmake	/^    SET(YAJL_FOUND TRUE)$/;"	v
+YAJL_NAMES	cmake/FindYAJL.cmake	/^SET(YAJL_NAMES ${YAJL_NAMES} yajl libyajl)$/;"	v
+__anon0ef0e64e0108	src/internal/ta.c	/^typedef struct {$/;"	s	file:
+__anon1567e56b0111	test/ta_test_helpers.cpp	/^    namespace {$/;"	n	namespace:ta_test_helpers	file:
+__anon1567e56b0202	test/ta_test_helpers.cpp	/^                [](const sa_key* p) {$/;"	f	function:ta_test_helpers::create_uninitialized_sa_key	file:
+__anon1567e56b0302	test/ta_test_helpers.cpp	/^                [](const sa_crypto_cipher_context* p) {$/;"	f	function:ta_test_helpers::create_uninitialized_sa_crypto_cipher_context	file:
+__anon1567e56b0402	test/ta_test_helpers.cpp	/^                [buffer_type](const sa_buffer* buffer) {$/;"	f	function:ta_test_helpers::buffer_alloc	file:
+__anon252aa8580111	test/ta_sa_svp_buffer_copy.cpp	/^namespace {$/;"	n	file:
+__anon2ae4288a0111	test/ta_sa_svp_key_check.cpp	/^namespace {$/;"	n	file:
+__anon3117b5860108	src/porting/video_output.c	/^static struct {$/;"	s	file:
+__anon3173dd050111	test/ta_sa_svp_crypto.cpp	/^namespace {$/;"	n	file:
+__anon3fac37330103	include/porting/otp.h	/^typedef enum {$/;"	g
+__anon43e2c4880111	test/object_store.cpp	/^namespace {$/;"	n	file:
+__anon43e2c4880202	test/object_store.cpp	/^        std::shared_ptr<void> const obj(object, [&](void* object) {$/;"	f	function:__anon43e2c4880111::TEST	file:
+__anon43e2c4880302	test/object_store.cpp	/^        std::shared_ptr<void> const obj(object, [&](void* object) {$/;"	f	function:__anon43e2c4880111::TEST	file:
+__anon468d2d960111	test/rights.cpp	/^namespace {$/;"	n	file:
+__anon46d0ebbf0111	test/json.cpp	/^namespace {$/;"	n	file:
+__anon51c7f2670108	include/porting/video_output.h	/^typedef struct {$/;"	s
+__anon785954400111	test/ta_sa_init.cpp	/^namespace {$/;"	n	file:
+__anon785954400202	test/ta_sa_init.cpp	/^                    [](const ta_client* p) {$/;"	f	function:__anon785954400111::TEST	file:
+__anon78d9ae530108	src/internal/json.c	/^struct {$/;"	s	file:
+__anon78d9ae530208	src/internal/json.c	/^typedef struct {$/;"	s	file:
+__anon7caf3a4e0108	src/internal/key_store.c	/^typedef struct {$/;"	s	file:
+__anon7caf3a4e0208	src/internal/key_store.c	/^struct {$/;"	s	file:
+__anon7caf3a4e0308	src/internal/key_store.c	/^typedef struct {$/;"	s	file:
+__anon7caf3a4e0408	src/internal/key_store.c	/^typedef struct {$/;"	s	file:
+__anon7caf3a4e0508	src/internal/key_store.c	/^typedef struct {$/;"	s	file:
+__anon86428e680111	test/ta_sa_svp_buffer_write.cpp	/^namespace {$/;"	n	file:
+__anona3e2ede50103	src/internal/typej.c	/^typedef enum {$/;"	g	file:
+__anona3e2ede50208	src/internal/typej.c	/^typedef struct {$/;"	s	file:
+__anonb7b3a9e80108	src/internal/soc_key_container.c	/^typedef struct {$/;"	s	file:
+__anonb7b3a9e80208	src/internal/soc_key_container.c	/^typedef struct {$/;"	s	file:
+__anonb7b3a9e80308	src/internal/soc_key_container.c	/^typedef struct {$/;"	s	file:
+__anonb7b3a9e80408	src/internal/soc_key_container.c	/^typedef struct {$/;"	s	file:
+__anonc2e8b4dc0108	src/internal/object_store.c	/^typedef struct {$/;"	s	file:
+__anoncb2ee14f0108	include/porting/otp_internal.h	/^typedef struct {$/;"	s
+__anonce3df58d0102	test/ta_sa_svp_common.cpp	/^            [](const sa_svp_buffer* p) {$/;"	f	function:TaSvpBase::create_sa_svp_buffer	file:
+__anond55ceab40103	include/internal/json.h	/^typedef enum {$/;"	g
+__anond55ceab40208	include/internal/json.h	/^typedef struct {$/;"	s
+__anond643d21a0111	test/slots.cpp	/^namespace {$/;"	n	file:
+__anond6d356db0111	test/ta_sa_svp_buffer_check.cpp	/^namespace {$/;"	n	file:
+__anoned9b6ecb0103	include/internal/rights.h	/^typedef enum {$/;"	g
+__anoned9b6ecb0203	include/internal/rights.h	/^typedef enum {$/;"	g
+add_overflow	src/porting/overflow.c	/^bool add_overflow($/;"	f	typeref:typename:bool
+alg	src/internal/soc_key_container.c	/^    const char* alg;$/;"	m	struct:__anonb7b3a9e80208	typeref:typename:const char *	file:
+alg_size	src/internal/soc_key_container.c	/^    size_t alg_size;$/;"	m	struct:__anonb7b3a9e80208	typeref:typename:size_t	file:
+analog_cgmsa_count	include/porting/video_output.h	/^    int analog_cgmsa_count;$/;"	m	struct:__anon51c7f2670108	typeref:typename:int
+analog_unprotected_count	include/porting/video_output.h	/^    int analog_unprotected_count;$/;"	m	struct:__anon51c7f2670108	typeref:typename:int
+b64_decode	src/internal/json.c	/^bool b64_decode($/;"	f	typeref:typename:bool
+b64_decoded_length	include/internal/json.h	/^#define b64_decoded_length(/;"	d
+be64toh	src/internal/cenc.c	/^#define be64toh(/;"	d	file:
+bitfield	src/internal/slots.c	/^    int* bitfield;$/;"	m	struct:slots_s	typeref:typename:int *	file:
+block_count	src/internal/slots.c	/^    size_t block_count;$/;"	m	struct:slots_s	typeref:typename:size_t	file:
+bn_export	src/internal/ec.c	/^static bool bn_export($/;"	f	typeref:typename:bool	file:
+bool_callback	src/internal/json.c	/^static int bool_callback($/;"	f	typeref:typename:int	file:
+buffer	src/internal/svp_store.c	/^    svp_buffer_t* buffer;$/;"	m	struct:svp_s	typeref:typename:svp_buffer_t *	file:
+buffer_alloc	test/ta_test_helpers.cpp	/^    std::shared_ptr<sa_buffer> buffer_alloc($/;"	f	namespace:ta_test_helpers	typeref:typename:std::shared_ptr<sa_buffer>
+build_aad	src/internal/soc_key_container.c	/^static size_t build_aad($/;"	f	typeref:typename:size_t	file:
+c1	include/porting/otp_internal.h	/^    uint8_t c1[SYM_128_KEY_SIZE];$/;"	m	struct:__anoncb2ee14f0108	typeref:typename:uint8_t[]
+c2	include/porting/otp_internal.h	/^    uint8_t c2[SYM_128_KEY_SIZE];$/;"	m	struct:__anoncb2ee14f0108	typeref:typename:uint8_t[]
+c3	include/porting/otp_internal.h	/^    uint8_t c3[SYM_128_KEY_SIZE];$/;"	m	struct:__anoncb2ee14f0108	typeref:typename:uint8_t[]
+callbacks	src/internal/json.c	/^    yajl_callbacks callbacks;$/;"	m	struct:__anon78d9ae530108	typeref:typename:yajl_callbacks	file:
+cenc_get_required_length	src/internal/cenc.c	/^size_t cenc_get_required_length($/;"	f	typeref:typename:size_t
+cenc_process_sample	src/internal/cenc.c	/^sa_status cenc_process_sample($/;"	f	typeref:typename:sa_status
+cipher_algorithm	src/internal/cipher_store.c	/^    sa_cipher_algorithm cipher_algorithm;$/;"	m	struct:cipher_s	typeref:typename:sa_cipher_algorithm	file:
+cipher_algorithm	src/internal/symmetric.c	/^    sa_cipher_algorithm cipher_algorithm;$/;"	m	struct:symmetric_context_s	typeref:typename:sa_cipher_algorithm	file:
+cipher_alloc	src/internal/cipher_store.c	/^static cipher_t* cipher_alloc() {$/;"	f	typeref:typename:cipher_t *	file:
+cipher_free	src/internal/cipher_store.c	/^static void cipher_free(void* object) {$/;"	f	typeref:typename:void	file:
+cipher_get_algorithm	src/internal/cipher_store.c	/^sa_cipher_algorithm cipher_get_algorithm(const cipher_t* cipher) {$/;"	f	typeref:typename:sa_cipher_algorithm
+cipher_get_key_rights	src/internal/cipher_store.c	/^const sa_rights* cipher_get_key_rights(const cipher_t* cipher) {$/;"	f	typeref:typename:const sa_rights *
+cipher_get_key_size	src/internal/cipher_store.c	/^size_t cipher_get_key_size(const cipher_t* cipher) {$/;"	f	typeref:typename:size_t
+cipher_get_mode	src/internal/cipher_store.c	/^sa_cipher_mode cipher_get_mode(const cipher_t* cipher) {$/;"	f	typeref:typename:sa_cipher_mode
+cipher_get_oaep_parameters	src/internal/cipher_store.c	/^sa_status cipher_get_oaep_parameters($/;"	f	typeref:typename:sa_status
+cipher_get_stored_key	src/internal/cipher_store.c	/^const stored_key_t* cipher_get_stored_key(const cipher_t* cipher) {$/;"	f	typeref:typename:const stored_key_t *
+cipher_get_symmetric_context	src/internal/cipher_store.c	/^symmetric_context_t* cipher_get_symmetric_context(const cipher_t* cipher) {$/;"	f	typeref:typename:symmetric_context_t *
+cipher_lock	src/internal/cipher_store.c	/^static bool cipher_lock(cipher_t* cipher) {$/;"	f	typeref:typename:bool	file:
+cipher_mode	src/internal/cipher_store.c	/^    sa_cipher_mode cipher_mode;$/;"	m	struct:cipher_s	typeref:typename:sa_cipher_mode	file:
+cipher_mode	src/internal/symmetric.c	/^    sa_cipher_mode cipher_mode;$/;"	m	struct:symmetric_context_s	typeref:typename:sa_cipher_mode	file:
+cipher_parameters	src/internal/key_store.c	/^    cipher_parameters_t cipher_parameters;$/;"	m	struct:__anon7caf3a4e0508	typeref:typename:cipher_parameters_t	file:
+cipher_parameters_t	src/internal/key_store.c	/^} cipher_parameters_t;$/;"	t	typeref:struct:__anon7caf3a4e0308	file:
+cipher_s	src/internal/cipher_store.c	/^struct cipher_s {$/;"	s	file:
+cipher_set_oaep_parameters	src/internal/cipher_store.c	/^sa_status cipher_set_oaep_parameters($/;"	f	typeref:typename:sa_status
+cipher_store	src/internal/client_store.c	/^    cipher_store_t* cipher_store;$/;"	m	struct:client_s	typeref:typename:cipher_store_t *	file:
+cipher_store_acquire_exclusive	src/internal/cipher_store.c	/^sa_status cipher_store_acquire_exclusive($/;"	f	typeref:typename:sa_status
+cipher_store_add_asymmetric_key	src/internal/cipher_store.c	/^sa_status cipher_store_add_asymmetric_key($/;"	f	typeref:typename:sa_status
+cipher_store_add_symmetric_context	src/internal/cipher_store.c	/^sa_status cipher_store_add_symmetric_context($/;"	f	typeref:typename:sa_status
+cipher_store_init	src/internal/cipher_store.c	/^cipher_store_t* cipher_store_init(size_t size) {$/;"	f	typeref:typename:cipher_store_t *
+cipher_store_release_exclusive	src/internal/cipher_store.c	/^sa_status cipher_store_release_exclusive($/;"	f	typeref:typename:sa_status
+cipher_store_remove	src/internal/cipher_store.c	/^sa_status cipher_store_remove($/;"	f	typeref:typename:sa_status
+cipher_store_shutdown	src/internal/cipher_store.c	/^void cipher_store_shutdown(cipher_store_t* store) {$/;"	f	typeref:typename:void
+cipher_store_t	include/internal/cipher_store.h	/^typedef object_store_t cipher_store_t;$/;"	t	typeref:typename:object_store_t
+cipher_t	include/internal/cipher_store.h	/^typedef struct cipher_s cipher_t;$/;"	t	typeref:struct:cipher_s
+cipher_unlock	src/internal/cipher_store.c	/^static void cipher_unlock(cipher_t* cipher) {$/;"	f	typeref:typename:void	file:
+ciphertext	src/internal/key_store.c	/^    void* ciphertext;$/;"	m	struct:__anon7caf3a4e0508	typeref:typename:void *	file:
+ciphertext_length	src/internal/key_store.c	/^    size_t ciphertext_length;$/;"	m	struct:__anon7caf3a4e0308	typeref:typename:size_t	file:
+client	src/internal/ta.c	/^    ta_client client;$/;"	m	struct:__anon0ef0e64e0108	typeref:typename:ta_client	file:
+client	test/ta_test_helpers.cpp	/^    ta_client client() {$/;"	f	namespace:ta_test_helpers	typeref:typename:ta_client
+client_free	src/internal/client_store.c	/^static void client_free(void* object) {$/;"	f	typeref:typename:void	file:
+client_get_cipher_store	src/internal/client_store.c	/^cipher_store_t* client_get_cipher_store(const client_t* client) {$/;"	f	typeref:typename:cipher_store_t *
+client_get_key_store	src/internal/client_store.c	/^key_store_t* client_get_key_store(const client_t* client) {$/;"	f	typeref:typename:key_store_t *
+client_get_mac_store	src/internal/client_store.c	/^mac_store_t* client_get_mac_store(const client_t* client) {$/;"	f	typeref:typename:mac_store_t *
+client_get_svp_store	src/internal/client_store.c	/^svp_store_t* client_get_svp_store(const client_t* client) {$/;"	f	typeref:typename:svp_store_t *
+client_init	src/internal/client_store.c	/^static client_t* client_init($/;"	f	typeref:typename:client_t *	file:
+client_s	src/internal/client_store.c	/^struct client_s {$/;"	s	file:
+client_store_acquire	src/internal/client_store.c	/^sa_status client_store_acquire($/;"	f	typeref:typename:sa_status
+client_store_add	src/internal/client_store.c	/^sa_status client_store_add($/;"	f	typeref:typename:sa_status
+client_store_global	src/internal/client_store.c	/^client_store_t* client_store_global() {$/;"	f	typeref:typename:client_store_t *
+client_store_global_create	src/internal/client_store.c	/^static void client_store_global_create() {$/;"	f	typeref:typename:void	file:
+client_store_global_shutdown	src/internal/client_store.c	/^static void client_store_global_shutdown() {$/;"	f	typeref:typename:void	file:
+client_store_init	src/internal/client_store.c	/^static client_store_t* client_store_init(size_t size) {$/;"	f	typeref:typename:client_store_t *	file:
+client_store_release	src/internal/client_store.c	/^sa_status client_store_release($/;"	f	typeref:typename:sa_status
+client_store_remove	src/internal/client_store.c	/^sa_status client_store_remove($/;"	f	typeref:typename:sa_status
+client_store_shutdown	src/internal/client_store.c	/^static void client_store_shutdown(client_store_t* store) {$/;"	f	typeref:typename:void	file:
+client_store_t	include/internal/client_store.h	/^typedef object_store_t client_store_t;$/;"	t	typeref:typename:object_store_t
+client_t	include/internal/client_store.h	/^typedef struct client_s client_t;$/;"	t	typeref:struct:client_s
+cmac	src/internal/cmac_context.c	/^sa_status cmac($/;"	f	typeref:typename:sa_status
+cmac_context	src/internal/mac_store.c	/^    cmac_context_t* cmac_context;$/;"	m	struct:mac_s	typeref:typename:cmac_context_t *	file:
+cmac_context_compute	src/internal/cmac_context.c	/^sa_status cmac_context_compute($/;"	f	typeref:typename:sa_status
+cmac_context_create	src/internal/cmac_context.c	/^cmac_context_t* cmac_context_create(const stored_key_t* stored_key) {$/;"	f	typeref:typename:cmac_context_t *
+cmac_context_done	src/internal/cmac_context.c	/^bool cmac_context_done(cmac_context_t* context) {$/;"	f	typeref:typename:bool
+cmac_context_free	src/internal/cmac_context.c	/^void cmac_context_free(cmac_context_t* context) {$/;"	f	typeref:typename:void
+cmac_context_s	src/internal/cmac_context.c	/^struct cmac_context_s {$/;"	s	file:
+cmac_context_t	include/internal/cmac_context.h	/^typedef struct cmac_context_s cmac_context_t;$/;"	t	typeref:struct:cmac_context_s
+cmac_context_update	src/internal/cmac_context.c	/^sa_status cmac_context_update($/;"	f	typeref:typename:sa_status
+cmac_context_update_key	src/internal/cmac_context.c	/^sa_status cmac_context_update_key($/;"	f	typeref:typename:sa_status
+container_version	src/internal/soc_key_container.c	/^    uint8_t container_version;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:uint8_t	file:
+content_key_rights_to_usage_flags	src/internal/typej.c	/^static sa_status content_key_rights_to_usage_flags($/;"	f	typeref:typename:sa_status	file:
+convert_buffer	src/internal/buffer.c	/^sa_status convert_buffer($/;"	f	typeref:typename:sa_status
+convert_str_to_int	src/porting/otp.c	/^static uint64_t convert_str_to_int($/;"	f	typeref:typename:uint64_t	file:
+convert_uuid	src/internal/rights.c	/^bool convert_uuid($/;"	f	typeref:typename:bool
+create_sa_svp_buffer	test/ta_sa_svp_common.cpp	/^std::shared_ptr<sa_svp_buffer> TaSvpBase::create_sa_svp_buffer(size_t size) {$/;"	f	class:TaSvpBase	typeref:typename:std::shared_ptr<sa_svp_buffer>
+create_uninitialized_sa_crypto_cipher_context	test/ta_test_helpers.cpp	/^    std::shared_ptr<sa_crypto_cipher_context> create_uninitialized_sa_crypto_cipher_context() {$/;"	f	namespace:ta_test_helpers	typeref:typename:std::shared_ptr<sa_crypto_cipher_context>
+create_uninitialized_sa_key	test/ta_test_helpers.cpp	/^    std::shared_ptr<sa_key> create_uninitialized_sa_key() {$/;"	f	namespace:ta_test_helpers	typeref:typename:std::shared_ptr<sa_key>
+decrement_release_count	src/internal/object_store.c	/^static void decrement_release_count(object_store_t* store) {$/;"	f	typeref:typename:void	file:
+decrypt	src/internal/cenc.c	/^static sa_status decrypt($/;"	f	typeref:typename:sa_status	file:
+decrypt_key_and_verify_mac	src/internal/soc_key_container.c	/^static sa_status decrypt_key_and_verify_mac($/;"	f	typeref:typename:sa_status	file:
+decrypted_key_usage	src/internal/soc_key_container.c	/^    uint8_t decrypted_key_usage;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:uint8_t	file:
+derivation_inputs	src/internal/key_store.c	/^    derivation_inputs_t derivation_inputs;$/;"	m	struct:__anon7caf3a4e0508	typeref:typename:derivation_inputs_t	file:
+derivation_inputs_t	src/internal/key_store.c	/^} derivation_inputs_t;$/;"	t	typeref:struct:__anon7caf3a4e0108	file:
+device_id	src/porting/otp.c	/^static uint64_t device_id;$/;"	v	typeref:typename:uint64_t	file:
+dh_compute_shared_secret	src/internal/dh.c	/^sa_status dh_compute_shared_secret($/;"	f	typeref:typename:sa_status
+dh_generate_key	src/internal/dh.c	/^sa_status dh_generate_key($/;"	f	typeref:typename:sa_status
+dh_get_public	src/internal/dh.c	/^sa_status dh_get_public($/;"	f	typeref:typename:sa_status
+digest_algorithm	src/internal/hmac_context.c	/^    sa_digest_algorithm digest_algorithm;$/;"	m	struct:hmac_context_s	typeref:typename:sa_digest_algorithm	file:
+digest_key	src/internal/digest.c	/^sa_status digest_key($/;"	f	typeref:typename:sa_status
+digest_sha	src/internal/digest.c	/^sa_status digest_sha($/;"	f	typeref:typename:sa_status
+digital_hdcp14_count	include/porting/video_output.h	/^    int digital_hdcp14_count;$/;"	m	struct:__anon51c7f2670108	typeref:typename:int
+digital_hdcp22_count	include/porting/video_output.h	/^    int digital_hdcp22_count;$/;"	m	struct:__anon51c7f2670108	typeref:typename:int
+digital_unprotected_count	include/porting/video_output.h	/^    int digital_unprotected_count;$/;"	m	struct:__anon51c7f2670108	typeref:typename:int
+done	src/internal/cmac_context.c	/^    bool done;$/;"	m	struct:cmac_context_s	typeref:typename:bool	file:
+done	src/internal/hmac_context.c	/^    bool done;$/;"	m	struct:hmac_context_s	typeref:typename:bool	file:
+double_callback	src/internal/json.c	/^static int double_callback($/;"	f	typeref:typename:int	file:
+ec_compute_ecdh_shared_secret	src/internal/ec.c	/^sa_status ec_compute_ecdh_shared_secret($/;"	f	typeref:typename:sa_status
+ec_decrypt_elgamal	src/internal/ec.c	/^sa_status ec_decrypt_elgamal($/;"	f	typeref:typename:sa_status
+ec_generate_key	src/internal/ec.c	/^sa_status ec_generate_key($/;"	f	typeref:typename:sa_status
+ec_get_name	src/internal/ec.c	/^static const char* ec_get_name(sa_elliptic_curve curve) {$/;"	f	typeref:typename:const char *	file:
+ec_get_nid	src/internal/ec.c	/^static int ec_get_nid(sa_elliptic_curve curve) {$/;"	f	typeref:typename:int	file:
+ec_get_public	src/internal/ec.c	/^sa_status ec_get_public($/;"	f	typeref:typename:sa_status
+ec_get_type	src/internal/ec.c	/^static int ec_get_type(sa_elliptic_curve curve) {$/;"	f	typeref:typename:int	file:
+ec_group_from_curve	src/internal/ec.c	/^static EC_GROUP* ec_group_from_curve(sa_elliptic_curve curve) {$/;"	f	typeref:typename:EC_GROUP *	file:
+ec_key_size_from_curve	src/internal/ec.c	/^size_t ec_key_size_from_curve(sa_elliptic_curve curve) {$/;"	f	typeref:typename:size_t
+ec_sign_ecdsa	src/internal/ec.c	/^sa_status ec_sign_ecdsa($/;"	f	typeref:typename:sa_status
+ec_sign_eddsa	src/internal/ec.c	/^sa_status ec_sign_eddsa($/;"	f	typeref:typename:sa_status
+ec_validate_private	src/internal/ec.c	/^size_t ec_validate_private($/;"	f	typeref:typename:size_t
+ec_verify_cipher	src/internal/ec.c	/^sa_status ec_verify_cipher($/;"	f	typeref:typename:sa_status
+encrypt_openssl	test/ta_sa_svp_crypto.cpp	/^std::vector<uint8_t> TaCryptoCipherBase::encrypt_openssl($/;"	f	class:TaCryptoCipherBase	typeref:typename:std::vector<uint8_t>
+encrypted_key	src/internal/soc_key_container.c	/^    char* encrypted_key;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:char *	file:
+encrypted_key_length	src/internal/soc_key_container.c	/^    size_t encrypted_key_length;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:size_t	file:
+end_array_callback	src/internal/json.c	/^static int end_array_callback(void* context) {$/;"	f	typeref:typename:int	file:
+end_map_callback	src/internal/json.c	/^static int end_map_callback(void* context) {$/;"	f	typeref:typename:int	file:
+entitled_ta_id	src/internal/soc_key_container.c	/^} entitled_ta_id;$/;"	t	typeref:struct:__anonb7b3a9e80308	file:
+entitled_ta_ids	src/internal/soc_key_container.c	/^    entitled_ta_id entitled_ta_ids[MAX_NUM_ALLOWED_TA_IDS];$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:entitled_ta_id[]	file:
+entitled_ta_ids_length	src/internal/soc_key_container.c	/^    size_t entitled_ta_ids_length;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:size_t	file:
+env	test/environment.cpp	/^static const ::testing::Environment* const env =$/;"	v	typeref:typename:const::testing::Environment * const	file:
+evp_cipher	src/internal/symmetric.c	/^    EVP_CIPHER_CTX* evp_cipher;$/;"	m	struct:symmetric_context_s	typeref:typename:EVP_CIPHER_CTX *	file:
+evp_mac_ctx	src/internal/cmac_context.c	/^    EVP_MAC_CTX* evp_mac_ctx;$/;"	m	struct:cmac_context_s	typeref:typename:EVP_MAC_CTX *	file:
+evp_mac_ctx	src/internal/hmac_context.c	/^    EVP_MAC_CTX* evp_mac_ctx;$/;"	m	struct:hmac_context_s	typeref:typename:EVP_MAC_CTX *	file:
+export_derivation_inputs	src/internal/key_store.c	/^    derivation_inputs_t export_derivation_inputs;$/;"	m	struct:__anon7caf3a4e0208	typeref:typename:derivation_inputs_t	file:
+export_point	src/internal/ec.c	/^static size_t export_point($/;"	f	typeref:typename:size_t	file:
+fields_to_rights	src/internal/soc_key_container.c	/^static sa_status fields_to_rights($/;"	f	typeref:typename:sa_status	file:
+fields_to_rights	src/internal/typej.c	/^static sa_status fields_to_rights($/;"	f	typeref:typename:sa_status	file:
+flag	src/internal/client_store.c	/^static once_flag flag = ONCE_FLAG_INIT;$/;"	v	typeref:typename:once_flag	file:
+get_cipher_parameters	test/ta_sa_svp_crypto.cpp	/^    void get_cipher_parameters($/;"	f	namespace:__anon3173dd050111	typeref:typename:void
+get_common_root_key	src/porting/otp.c	/^static bool get_common_root_key($/;"	f	typeref:typename:bool	file:
+get_implementation_name	src/internal/saimpl.c	/^const char* get_implementation_name() {$/;"	f	typeref:typename:const char *
+get_implementation_version	src/internal/saimpl.c	/^const sa_version* get_implementation_version() {$/;"	f	typeref:typename:const sa_version *
+get_key_type_and_size	src/internal/soc_key_container.c	/^static bool get_key_type_and_size($/;"	f	typeref:typename:bool	file:
+get_required_length	src/ta_sa_crypto_cipher_process.c	/^static size_t get_required_length($/;"	f	typeref:typename:size_t	file:
+get_required_length	src/ta_sa_crypto_cipher_process_last.c	/^static size_t get_required_length($/;"	f	typeref:typename:size_t	file:
+get_required_length	test/ta_sa_svp_crypto.cpp	/^    size_t get_required_length($/;"	f	namespace:__anon3173dd050111	typeref:typename:size_t
+get_root_key	src/porting/otp.c	/^static bool get_root_key($/;"	f	typeref:typename:bool	file:
+global_json	src/internal/json.c	/^} global_json = {$/;"	v	typeref:struct:__anon78d9ae530108
+global_key_store	src/internal/key_store.c	/^} global_key_store = {$/;"	v	typeref:struct:__anon7caf3a4e0208
+global_shutdown	src/internal/client_store.c	/^static bool global_shutdown = false;$/;"	v	typeref:typename:bool	file:
+global_video_output	src/porting/video_output.c	/^} global_video_output = {$/;"	v	typeref:struct:__anon3117b5860108
+header	src/internal/key_store.c	/^    sa_header header;$/;"	m	struct:__anon7caf3a4e0508	typeref:typename:sa_header	file:
+header	src/internal/soc_key_container.c	/^    void* header;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:void *	file:
+header	src/internal/stored_key.c	/^    sa_header header;$/;"	m	struct:stored_key_s	typeref:typename:sa_header	file:
+header	src/internal/typej.c	/^    void* header;$/;"	m	struct:__anona3e2ede50208	typeref:typename:void *	file:
+header_b64	src/internal/soc_key_container.c	/^    const char* header_b64;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:const char *	file:
+header_b64	src/internal/typej.c	/^    const char* header_b64;$/;"	m	struct:__anona3e2ede50208	typeref:typename:const char *	file:
+header_b64_length	src/internal/soc_key_container.c	/^    size_t header_b64_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+header_b64_length	src/internal/typej.c	/^    size_t header_b64_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+header_length	src/internal/soc_key_container.c	/^    size_t header_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+header_length	src/internal/typej.c	/^    size_t header_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+hmac	src/internal/hmac_context.c	/^sa_status hmac($/;"	f	typeref:typename:sa_status
+hmac_context	src/internal/mac_store.c	/^    hmac_context_t* hmac_context;$/;"	m	struct:mac_s	typeref:typename:hmac_context_t *	file:
+hmac_context_compute	src/internal/hmac_context.c	/^sa_status hmac_context_compute($/;"	f	typeref:typename:sa_status
+hmac_context_create	src/internal/hmac_context.c	/^hmac_context_t* hmac_context_create($/;"	f	typeref:typename:hmac_context_t *
+hmac_context_done	src/internal/hmac_context.c	/^bool hmac_context_done($/;"	f	typeref:typename:bool
+hmac_context_free	src/internal/hmac_context.c	/^void hmac_context_free(hmac_context_t* context) {$/;"	f	typeref:typename:void
+hmac_context_get_digest	src/internal/hmac_context.c	/^sa_digest_algorithm hmac_context_get_digest(const hmac_context_t* context) {$/;"	f	typeref:typename:sa_digest_algorithm
+hmac_context_s	src/internal/hmac_context.c	/^struct hmac_context_s {$/;"	s	file:
+hmac_context_t	include/internal/hmac_context.h	/^typedef struct hmac_context_s hmac_context_t;$/;"	t	typeref:struct:hmac_context_s
+hmac_context_update	src/internal/hmac_context.c	/^sa_status hmac_context_update($/;"	f	typeref:typename:sa_status
+hmac_context_update_key	src/internal/hmac_context.c	/^sa_status hmac_context_update_key($/;"	f	typeref:typename:sa_status
+hmac_internal	src/internal/hmac_context.c	/^sa_status hmac_internal($/;"	f	typeref:typename:sa_status
+htobe64	src/internal/cenc.c	/^#define htobe64(/;"	d	file:
+import_key	src/internal/unwrap.c	/^static sa_status import_key($/;"	f	typeref:typename:sa_status	file:
+import_key	test/ta_sa_svp_crypto.cpp	/^std::shared_ptr<sa_key> TaCryptoCipherBase::import_key($/;"	f	class:TaCryptoCipherBase	typeref:typename:std::shared_ptr<sa_key>
+in	src/internal/soc_key_container.c	/^    const void* in;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:const void *	file:
+in	src/internal/typej.c	/^    const void* in;$/;"	m	struct:__anona3e2ede50208	typeref:typename:const void *	file:
+in_length	src/internal/soc_key_container.c	/^    size_t in_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+in_length	src/internal/typej.c	/^    size_t in_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+increment_release_count	src/internal/object_store.c	/^static bool increment_release_count(object_store_t* store) {$/;"	f	typeref:typename:bool	file:
+init_openssl_allocator	src/porting/init.c	/^void init_openssl_allocator() {$/;"	f	typeref:typename:void
+integer_callback	src/internal/json.c	/^static int integer_callback($/;"	f	typeref:typename:int	file:
+integrity_key_inputs	src/internal/key_store.c	/^    key_ladder_inputs_t integrity_key_inputs;$/;"	m	struct:__anon7caf3a4e0108	typeref:typename:key_ladder_inputs_t	file:
+is_pcurve	src/internal/ec.c	/^static inline bool is_pcurve(sa_elliptic_curve curve) {$/;"	f	typeref:typename:bool	file:
+is_ree	src/porting/transport.c	/^bool is_ree(const sa_uuid* uuid) {$/;"	f	typeref:typename:bool
+is_shutting_down	src/internal/object_store.c	/^    bool is_shutting_down;$/;"	m	struct:object_store_s	typeref:typename:bool	file:
+iso8601_to_epoch_time	src/internal/typej.c	/^static bool iso8601_to_epoch_time($/;"	f	typeref:typename:bool	file:
+iv	src/internal/key_store.c	/^    uint8_t iv[AES_BLOCK_SIZE];$/;"	m	struct:__anon7caf3a4e0308	typeref:typename:uint8_t[]	file:
+iv	src/internal/soc_key_container.c	/^    uint8_t iv[GCM_IV_LENGTH];$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:uint8_t[]	file:
+json_array_add	src/internal/json.c	/^static json_array_t* json_array_add($/;"	f	typeref:typename:json_array_t *	file:
+json_array_free	src/internal/json.c	/^static void json_array_free(json_array_t* array) {$/;"	f	typeref:typename:void	file:
+json_array_last	src/internal/json.c	/^static json_array_t* json_array_last(json_array_t* array) {$/;"	f	typeref:typename:json_array_t *	file:
+json_array_new	src/internal/json.c	/^static json_array_t* json_array_new() {$/;"	f	typeref:typename:json_array_t *	file:
+json_array_s	src/internal/json.c	/^typedef struct json_array_s {$/;"	s	file:
+json_array_set_value	src/internal/json.c	/^static void json_array_set_value(json_array_t* array, json_value_t* value) {$/;"	f	typeref:typename:void	file:
+json_array_size	src/internal/json.c	/^static size_t json_array_size(const json_array_t* array) {$/;"	f	typeref:typename:size_t	file:
+json_array_t	src/internal/json.c	/^} json_array_t;$/;"	t	typeref:struct:json_array_s	file:
+json_key_value_find	src/internal/json.c	/^const json_key_value_t* json_key_value_find($/;"	f	typeref:typename:const json_key_value_t *
+json_key_value_t	include/internal/json.h	/^} json_key_value_t;$/;"	t	typeref:struct:__anond55ceab40208
+json_map_add_key_value	src/internal/json.c	/^static json_map_t* json_map_add_key_value(json_map_t* map) {$/;"	f	typeref:typename:json_map_t *	file:
+json_map_free	src/internal/json.c	/^static void json_map_free(json_map_t* map) {$/;"	f	typeref:typename:void	file:
+json_map_last_key_value	src/internal/json.c	/^static json_map_t* json_map_last_key_value(json_map_t* map) {$/;"	f	typeref:typename:json_map_t *	file:
+json_map_new	src/internal/json.c	/^static json_map_t* json_map_new() {$/;"	f	typeref:typename:json_map_t *	file:
+json_map_s	src/internal/json.c	/^typedef struct json_map_s {$/;"	s	file:
+json_map_set_key	src/internal/json.c	/^static void json_map_set_key($/;"	f	typeref:typename:void	file:
+json_map_set_value	src/internal/json.c	/^static void json_map_set_value($/;"	f	typeref:typename:void	file:
+json_map_size	src/internal/json.c	/^static size_t json_map_size(const json_map_t* map) {$/;"	f	typeref:typename:size_t	file:
+json_map_t	src/internal/json.c	/^} json_map_t;$/;"	t	typeref:struct:json_map_s	file:
+json_parse_bytes	src/internal/json.c	/^json_value_t* json_parse_bytes($/;"	f	typeref:typename:json_value_t *
+json_parse_context_free	src/internal/json.c	/^static void json_parse_context_free(json_parse_context_t* context) {$/;"	f	typeref:typename:void	file:
+json_parse_context_new	src/internal/json.c	/^static json_parse_context_t* json_parse_context_new() {$/;"	f	typeref:typename:json_parse_context_t *	file:
+json_parse_context_pop	src/internal/json.c	/^static json_stack_t* json_parse_context_pop(json_parse_context_t* context) {$/;"	f	typeref:typename:json_stack_t *	file:
+json_parse_context_push	src/internal/json.c	/^static json_stack_t* json_parse_context_push($/;"	f	typeref:typename:json_stack_t *	file:
+json_parse_context_set_root	src/internal/json.c	/^static void json_parse_context_set_root($/;"	f	typeref:typename:void	file:
+json_parse_context_set_value	src/internal/json.c	/^static void json_parse_context_set_value($/;"	f	typeref:typename:void	file:
+json_parse_context_t	src/internal/json.c	/^} json_parse_context_t;$/;"	t	typeref:struct:__anon78d9ae530208	file:
+json_stack_free	src/internal/json.c	/^static void json_stack_free(json_stack_t* stack) {$/;"	f	typeref:typename:void	file:
+json_stack_new	src/internal/json.c	/^static json_stack_t* json_stack_new() {$/;"	f	typeref:typename:json_stack_t *	file:
+json_stack_pop	src/internal/json.c	/^static json_stack_t* json_stack_pop($/;"	f	typeref:typename:json_stack_t *	file:
+json_stack_push	src/internal/json.c	/^static json_stack_t* json_stack_push(json_stack_t* top) {$/;"	f	typeref:typename:json_stack_t *	file:
+json_stack_s	src/internal/json.c	/^typedef struct json_stack_s {$/;"	s	file:
+json_stack_set_value	src/internal/json.c	/^static void json_stack_set_value($/;"	f	typeref:typename:void	file:
+json_stack_t	src/internal/json.c	/^} json_stack_t;$/;"	t	typeref:struct:json_stack_s	file:
+json_type_e	include/internal/json.h	/^} json_type_e;$/;"	t	typeref:enum:__anond55ceab40103
+json_value_as_array	src/internal/json.c	/^json_value_t** json_value_as_array($/;"	f	typeref:typename:json_value_t **
+json_value_as_bool	src/internal/json.c	/^bool json_value_as_bool(const json_value_t* value) {$/;"	f	typeref:typename:bool
+json_value_as_double	src/internal/json.c	/^double json_value_as_double(const json_value_t* value) {$/;"	f	typeref:typename:double
+json_value_as_integer	src/internal/json.c	/^int64_t json_value_as_integer(const json_value_t* value) {$/;"	f	typeref:typename:int64_t
+json_value_as_map	src/internal/json.c	/^json_key_value_t* json_value_as_map($/;"	f	typeref:typename:json_key_value_t *
+json_value_as_number	src/internal/json.c	/^const char* json_value_as_number(const json_value_t* value) {$/;"	f	typeref:typename:const char *
+json_value_as_string	src/internal/json.c	/^const char* json_value_as_string($/;"	f	typeref:typename:const char *
+json_value_free	src/internal/json.c	/^void json_value_free(json_value_t* value) {$/;"	f	typeref:typename:void
+json_value_get_type	src/internal/json.c	/^json_type_e json_value_get_type(const json_value_t* value) {$/;"	f	typeref:typename:json_type_e
+json_value_new	src/internal/json.c	/^static json_value_t* json_value_new($/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_array	src/internal/json.c	/^static json_value_t* json_value_new_array() {$/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_bool	src/internal/json.c	/^static json_value_t* json_value_new_bool(bool val) {$/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_double	src/internal/json.c	/^static json_value_t* json_value_new_double(double val) {$/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_integer	src/internal/json.c	/^static json_value_t* json_value_new_integer(long long val) {$/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_map	src/internal/json.c	/^static json_value_t* json_value_new_map() {$/;"	f	typeref:typename:json_value_t *	file:
+json_value_new_string	src/internal/json.c	/^static json_value_t* json_value_new_string($/;"	f	typeref:typename:json_value_t *	file:
+json_value_s	src/internal/json.c	/^struct json_value_s {$/;"	s	file:
+json_value_t	include/internal/json.h	/^typedef struct json_value_s json_value_t;$/;"	t	typeref:struct:json_value_s
+kdf_ansi_x963	src/internal/kdf.c	/^sa_status kdf_ansi_x963($/;"	f	typeref:typename:sa_status
+kdf_concat_kdf	src/internal/kdf.c	/^sa_status kdf_concat_kdf($/;"	f	typeref:typename:sa_status
+kdf_ctr_cmac	src/internal/kdf.c	/^sa_status kdf_ctr_cmac($/;"	f	typeref:typename:sa_status
+kdf_hkdf_hmac	src/internal/kdf.c	/^sa_status kdf_hkdf_hmac($/;"	f	typeref:typename:sa_status
+kdf_netflix_shared_secret	src/internal/netflix.c	/^sa_status kdf_netflix_shared_secret($/;"	f	typeref:typename:sa_status
+kdf_netflix_wrapping	src/internal/netflix.c	/^sa_status kdf_netflix_wrapping($/;"	f	typeref:typename:sa_status
+key	include/internal/json.h	/^    const char* key;$/;"	m	struct:__anond55ceab40208	typeref:typename:const char *
+key	src/internal/json.c	/^    char* key;$/;"	m	struct:json_map_s	typeref:typename:char *	file:
+key	src/internal/stored_key.c	/^    void* key;$/;"	m	struct:stored_key_s	typeref:typename:void *	file:
+key_ladder_inputs	src/internal/soc_key_container.c	/^    key_ladder_inputs_t key_ladder_inputs;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:key_ladder_inputs_t	file:
+key_ladder_inputs_t	include/porting/otp_internal.h	/^} key_ladder_inputs_t;$/;"	t	typeref:struct:__anoncb2ee14f0108
+key_length	include/internal/json.h	/^    size_t key_length;$/;"	m	struct:__anond55ceab40208	typeref:typename:size_t
+key_length	src/internal/json.c	/^    size_t key_length;$/;"	m	struct:json_map_s	typeref:typename:size_t	file:
+key_length	src/internal/stored_key.c	/^    size_t key_length;$/;"	m	struct:stored_key_s	typeref:typename:size_t	file:
+key_store	src/internal/client_store.c	/^    key_store_t* key_store;$/;"	m	struct:client_s	typeref:typename:key_store_t *	file:
+key_store_export	src/internal/key_store.c	/^sa_status key_store_export($/;"	f	typeref:typename:sa_status
+key_store_get_header	src/internal/key_store.c	/^sa_status key_store_get_header($/;"	f	typeref:typename:sa_status
+key_store_import_exported	src/internal/key_store.c	/^sa_status key_store_import_exported($/;"	f	typeref:typename:sa_status
+key_store_import_stored_key	src/internal/key_store.c	/^sa_status key_store_import_stored_key($/;"	f	typeref:typename:sa_status
+key_store_init	src/internal/key_store.c	/^key_store_t* key_store_init(size_t size) {$/;"	f	typeref:typename:key_store_t *
+key_store_remove	src/internal/key_store.c	/^sa_status key_store_remove($/;"	f	typeref:typename:sa_status
+key_store_shutdown	src/internal/key_store.c	/^void key_store_shutdown(key_store_t* store) {$/;"	f	typeref:typename:void
+key_store_t	include/internal/key_store.h	/^typedef object_store_t key_store_t;$/;"	t	typeref:typename:object_store_t
+key_store_unwrap	src/internal/key_store.c	/^sa_status key_store_unwrap($/;"	f	typeref:typename:sa_status
+key_subtype	include/internal/rights.h	/^} key_subtype;$/;"	t	typeref:enum:__anoned9b6ecb0203
+key_type_string	src/internal/soc_key_container.c	/^    const char* key_type_string;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:const char *	file:
+key_type_string_length	src/internal/soc_key_container.c	/^    size_t key_type_string_length;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:size_t	file:
+key_type_supports_aes	src/internal/key_type.c	/^bool key_type_supports_aes(sa_key_type key_type, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_any	src/internal/key_type.c	/^bool key_type_supports_any(sa_key_type key_type, uint8_t ec_curve, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_chacha20	src/internal/key_type.c	/^bool key_type_supports_chacha20(sa_key_type key_type, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_dh	src/internal/key_type.c	/^bool key_type_supports_dh(sa_key_type key_type, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_ec	src/internal/key_type.c	/^bool key_type_supports_ec(sa_key_type key_type, sa_elliptic_curve curve, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_hmac	src/internal/key_type.c	/^bool key_type_supports_hmac(sa_key_type key_type, size_t size) {$/;"	f	typeref:typename:bool
+key_type_supports_rsa	src/internal/key_type.c	/^bool key_type_supports_rsa(sa_key_type key_type, size_t size) {$/;"	f	typeref:typename:bool
+key_usage	include/internal/rights.h	/^} key_usage;$/;"	t	typeref:enum:__anoned9b6ecb0103
+key_usage	src/internal/soc_key_container.c	/^    uint8_t key_usage;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:uint8_t	file:
+key_usage_to_usage_flags	src/internal/rights.c	/^sa_status key_usage_to_usage_flags($/;"	f	typeref:typename:sa_status
+mac	src/internal/key_store.c	/^    uint8_t mac[SHA256_DIGEST_LENGTH];$/;"	m	struct:__anon7caf3a4e0408	typeref:typename:uint8_t[]	file:
+mac	src/internal/soc_key_container.c	/^    uint8_t *mac;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:uint8_t *	file:
+mac	src/internal/typej.c	/^    void* mac;$/;"	m	struct:__anona3e2ede50208	typeref:typename:void *	file:
+mac_algorithm	src/internal/mac_store.c	/^    sa_mac_algorithm mac_algorithm;$/;"	m	struct:mac_s	typeref:typename:sa_mac_algorithm	file:
+mac_allocate	src/internal/mac_store.c	/^static mac_t* mac_allocate() {$/;"	f	typeref:typename:mac_t *	file:
+mac_b64	src/internal/soc_key_container.c	/^    const char* mac_b64;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:const char *	file:
+mac_b64	src/internal/typej.c	/^    const char* mac_b64;$/;"	m	struct:__anona3e2ede50208	typeref:typename:const char *	file:
+mac_b64_length	src/internal/soc_key_container.c	/^    size_t mac_b64_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+mac_b64_length	src/internal/typej.c	/^    size_t mac_b64_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+mac_free	src/internal/mac_store.c	/^static void mac_free(void* object) {$/;"	f	typeref:typename:void	file:
+mac_get_algorithm	src/internal/mac_store.c	/^sa_mac_algorithm mac_get_algorithm(const mac_t* mac) {$/;"	f	typeref:typename:sa_mac_algorithm
+mac_get_cmac_context	src/internal/mac_store.c	/^cmac_context_t* mac_get_cmac_context(const mac_t* mac) {$/;"	f	typeref:typename:cmac_context_t *
+mac_get_hmac_context	src/internal/mac_store.c	/^hmac_context_t* mac_get_hmac_context(const mac_t* mac) {$/;"	f	typeref:typename:hmac_context_t *
+mac_length	src/internal/soc_key_container.c	/^    size_t mac_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+mac_length	src/internal/typej.c	/^    size_t mac_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+mac_lock	src/internal/mac_store.c	/^static bool mac_lock(mac_t* mac) {$/;"	f	typeref:typename:bool	file:
+mac_s	src/internal/mac_store.c	/^struct mac_s {$/;"	s	file:
+mac_store	src/internal/client_store.c	/^    mac_store_t* mac_store;$/;"	m	struct:client_s	typeref:typename:mac_store_t *	file:
+mac_store_acquire_exclusive	src/internal/mac_store.c	/^sa_status mac_store_acquire_exclusive($/;"	f	typeref:typename:sa_status
+mac_store_add_cmac_context	src/internal/mac_store.c	/^sa_status mac_store_add_cmac_context($/;"	f	typeref:typename:sa_status
+mac_store_add_hmac_context	src/internal/mac_store.c	/^sa_status mac_store_add_hmac_context($/;"	f	typeref:typename:sa_status
+mac_store_init	src/internal/mac_store.c	/^mac_store_t* mac_store_init(size_t size) {$/;"	f	typeref:typename:mac_store_t *
+mac_store_release_exclusive	src/internal/mac_store.c	/^sa_status mac_store_release_exclusive($/;"	f	typeref:typename:sa_status
+mac_store_remove	src/internal/mac_store.c	/^sa_status mac_store_remove($/;"	f	typeref:typename:sa_status
+mac_store_shutdown	src/internal/mac_store.c	/^void mac_store_shutdown(mac_store_t* store) {$/;"	f	typeref:typename:void
+mac_store_t	include/internal/mac_store.h	/^typedef object_store_t mac_store_t;$/;"	t	typeref:typename:object_store_t
+mac_t	include/internal/mac_store.h	/^typedef struct mac_s mac_t;$/;"	t	typeref:struct:mac_s
+mac_unlock	src/internal/mac_store.c	/^static void mac_unlock(mac_t* mac) {$/;"	f	typeref:typename:void	file:
+map_key_callback	src/internal/json.c	/^static int map_key_callback($/;"	f	typeref:typename:int	file:
+memory_internal_alloc	src/porting/memory.c	/^void* memory_internal_alloc(size_t size) {$/;"	f	typeref:typename:void *
+memory_internal_free	src/porting/memory.c	/^void memory_internal_free(void* buffer) {$/;"	f	typeref:typename:void
+memory_internal_realloc	src/porting/memory.c	/^void* memory_internal_realloc(void* buffer, size_t new_size) {$/;"	f	typeref:typename:void *
+memory_is_valid_clear	src/porting/memory.c	/^bool memory_is_valid_clear($/;"	f	typeref:typename:bool
+memory_is_valid_svp	src/porting/memory.c	/^bool memory_is_valid_svp($/;"	f	typeref:typename:bool
+memory_memcmp_constant	src/porting/memory.c	/^int memory_memcmp_constant(const void* in1, const void* in2, size_t length) {$/;"	f	typeref:typename:int
+memory_memset_unoptimizable	src/porting/memory.c	/^void* memory_memset_unoptimizable(void* destination, uint8_t value, size_t size) {$/;"	f	typeref:typename:void *
+memory_secure_alloc	src/porting/memory.c	/^void* memory_secure_alloc(size_t size) {$/;"	f	typeref:typename:void *
+memory_secure_free	src/porting/memory.c	/^void memory_secure_free(void* buffer) {$/;"	f	typeref:typename:void
+memory_secure_realloc	src/porting/memory.c	/^void* memory_secure_realloc(void* buffer, size_t new_size) {$/;"	f	typeref:typename:void *
+mutex	src/internal/cipher_store.c	/^    mtx_t mutex;$/;"	m	struct:cipher_s	typeref:typename:mtx_t	file:
+mutex	src/internal/client_store.c	/^static mtx_t mutex;$/;"	v	typeref:typename:mtx_t	file:
+mutex	src/internal/mac_store.c	/^    mtx_t mutex;$/;"	m	struct:mac_s	typeref:typename:mtx_t	file:
+mutex	src/internal/object_store.c	/^    mtx_t mutex;$/;"	m	struct:object_store_s	typeref:typename:mtx_t	file:
+mutex	src/internal/svp_store.c	/^    mtx_t mutex;$/;"	m	struct:svp_s	typeref:typename:mtx_t	file:
+name	src/internal/object_store.c	/^    const char* name;$/;"	m	struct:object_store_s	typeref:typename:const char *	file:
+name	src/internal/slots.c	/^    const char* name;$/;"	m	struct:slots_s	typeref:typename:const char *	file:
+next	src/internal/json.c	/^    struct json_array_s* next;$/;"	m	struct:json_array_s	typeref:struct:json_array_s *	file:
+next	src/internal/json.c	/^    struct json_map_s* next;$/;"	m	struct:json_map_s	typeref:struct:json_map_s *	file:
+noop	test/object_store.cpp	/^    void noop(void* obj) {$/;"	f	namespace:__anon43e2c4880111	typeref:typename:void
+null_callback	src/internal/json.c	/^static int null_callback(void* context) {$/;"	f	typeref:typename:int	file:
+oaep_digest_algorithm	src/internal/cipher_store.c	/^    sa_digest_algorithm oaep_digest_algorithm;$/;"	m	struct:cipher_s	typeref:typename:sa_digest_algorithm	file:
+oaep_label	src/internal/cipher_store.c	/^    void* oaep_label;$/;"	m	struct:cipher_s	typeref:typename:void *	file:
+oaep_label_length	src/internal/cipher_store.c	/^    size_t oaep_label_length;$/;"	m	struct:cipher_s	typeref:typename:size_t	file:
+oaep_mgf1_digest_algorithm	src/internal/cipher_store.c	/^    sa_digest_algorithm oaep_mgf1_digest_algorithm;$/;"	m	struct:cipher_s	typeref:typename:sa_digest_algorithm	file:
+object	src/internal/object_store.c	/^    void* object;$/;"	m	struct:__anonc2e8b4dc0108	typeref:typename:void *	file:
+object_free	src/internal/object_store.c	/^    object_free_function object_free;$/;"	m	struct:object_store_s	typeref:typename:object_free_function	file:
+object_free_function	include/internal/object_store.h	/^typedef void (*object_free_function)(void*);$/;"	t	typeref:typename:void (*)(void *)
+object_store_acquire	src/internal/object_store.c	/^sa_status object_store_acquire($/;"	f	typeref:typename:sa_status
+object_store_add	src/internal/object_store.c	/^sa_status object_store_add($/;"	f	typeref:typename:sa_status
+object_store_init	src/internal/object_store.c	/^object_store_t* object_store_init($/;"	f	typeref:typename:object_store_t *
+object_store_release	src/internal/object_store.c	/^sa_status object_store_release(object_store_t* store, slot_t slot, void* object, const sa_uuid* /;"	f	typeref:typename:sa_status
+object_store_remove	src/internal/object_store.c	/^sa_status object_store_remove($/;"	f	typeref:typename:sa_status
+object_store_s	src/internal/object_store.c	/^struct object_store_s {$/;"	s	file:
+object_store_shutdown	src/internal/object_store.c	/^void object_store_shutdown(object_store_t* store) {$/;"	f	typeref:typename:void
+object_store_size	src/internal/object_store.c	/^size_t object_store_size(object_store_t* store) {$/;"	f	typeref:typename:size_t
+object_store_t	include/internal/object_store.h	/^typedef struct object_store_s object_store_t;$/;"	t	typeref:struct:object_store_s
+objects	src/internal/object_store.c	/^    store_object_t* objects;$/;"	m	struct:object_store_s	typeref:typename:store_object_t *	file:
+openssl_secure_free	src/porting/init.c	/^static void openssl_secure_free(void* buffer) {$/;"	f	typeref:typename:void	file:
+openssl_secure_malloc	src/porting/init.c	/^static void* openssl_secure_malloc(size_t size) {$/;"	f	typeref:typename:void *	file:
+openssl_secure_realloc	src/porting/init.c	/^static void* openssl_secure_realloc($/;"	f	typeref:typename:void *	file:
+otp_device_id	src/porting/otp.c	/^sa_status otp_device_id(uint64_t* id) {$/;"	f	typeref:typename:sa_status
+otp_hmac_sha256	src/porting/otp.c	/^sa_status otp_hmac_sha256($/;"	f	typeref:typename:sa_status
+otp_hw_key_ladder	src/porting/otp.c	/^static sa_status otp_hw_key_ladder($/;"	f	typeref:typename:sa_status	file:
+otp_root_key_ladder	src/porting/otp.c	/^sa_status otp_root_key_ladder($/;"	f	typeref:typename:sa_status
+otp_unwrap_aes_cbc	src/porting/otp.c	/^sa_status otp_unwrap_aes_cbc($/;"	f	typeref:typename:sa_status
+otp_unwrap_aes_gcm	src/porting/otp.c	/^sa_status otp_unwrap_aes_gcm($/;"	f	typeref:typename:sa_status
+otp_wrap_aes_cbc	src/porting/otp.c	/^sa_status otp_wrap_aes_cbc($/;"	f	typeref:typename:sa_status
+owner_uuid	src/internal/object_store.c	/^    sa_uuid owner_uuid;$/;"	m	struct:__anonc2e8b4dc0108	typeref:typename:sa_uuid	file:
+pad	src/internal/key_store.c	/^static void* pad($/;"	f	typeref:typename:void *	file:
+pad_apply_pkcs7	src/internal/pad.c	/^bool pad_apply_pkcs7($/;"	f	typeref:typename:bool
+pad_check_pkcs7	src/internal/pad.c	/^bool pad_check_pkcs7($/;"	f	typeref:typename:bool
+parse_cipher_algorithm	src/internal/typej.c	/^static sa_cipher_algorithm parse_cipher_algorithm(const char* algorithm, size_t algorithm_length/;"	f	typeref:typename:sa_cipher_algorithm	file:
+parse_header	src/internal/soc_key_container.c	/^static sa_status parse_header($/;"	f	typeref:typename:sa_status	file:
+parse_payload	src/internal/soc_key_container.c	/^static sa_status parse_payload($/;"	f	typeref:typename:sa_status	file:
+parser_configuration	src/internal/json.c	/^    yajl_parser_config parser_configuration;$/;"	m	struct:__anon78d9ae530108	typeref:typename:yajl_parser_config	file:
+payload	src/internal/json.c	/^    void* payload;$/;"	m	struct:json_value_s	typeref:typename:void *	file:
+payload	src/internal/soc_key_container.c	/^    void* payload;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:void *	file:
+payload	src/internal/typej.c	/^    void* payload;$/;"	m	struct:__anona3e2ede50208	typeref:typename:void *	file:
+payload_b64	src/internal/soc_key_container.c	/^    const char* payload_b64;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:const char *	file:
+payload_b64	src/internal/typej.c	/^    const char* payload_b64;$/;"	m	struct:__anona3e2ede50208	typeref:typename:const char *	file:
+payload_b64_length	src/internal/soc_key_container.c	/^    size_t payload_b64_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+payload_b64_length	src/internal/typej.c	/^    size_t payload_b64_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+payload_length	src/internal/json.c	/^    size_t payload_length;$/;"	m	struct:json_value_s	typeref:typename:size_t	file:
+payload_length	src/internal/soc_key_container.c	/^    size_t payload_length;$/;"	m	struct:__anonb7b3a9e80108	typeref:typename:size_t	file:
+payload_length	src/internal/typej.c	/^    size_t payload_length;$/;"	m	struct:__anona3e2ede50208	typeref:typename:size_t	file:
+previous	src/internal/json.c	/^    struct json_stack_s* previous;$/;"	m	struct:json_stack_s	typeref:struct:json_stack_s *	file:
+rand_bytes	src/porting/rand.c	/^bool rand_bytes(void* out, size_t out_length) {$/;"	f	typeref:typename:bool
+reference_count	src/internal/object_store.c	/^    size_t reference_count;$/;"	m	struct:__anonc2e8b4dc0108	typeref:typename:size_t	file:
+release_count	src/internal/object_store.c	/^    size_t release_count;$/;"	m	struct:object_store_s	typeref:typename:size_t	file:
+restrict_child_rights	src/internal/stored_key.c	/^static void restrict_child_rights(sa_rights* rights, const sa_rights* rootrights) {$/;"	f	typeref:typename:void	file:
+rights_allowed_clear	src/internal/rights.c	/^bool rights_allowed_clear(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+rights_allowed_decrypt	src/internal/rights.c	/^bool rights_allowed_decrypt($/;"	f	typeref:typename:bool
+rights_allowed_derive	src/internal/rights.c	/^bool rights_allowed_derive(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+rights_allowed_encrypt	src/internal/rights.c	/^bool rights_allowed_encrypt($/;"	f	typeref:typename:bool
+rights_allowed_exchange	src/internal/rights.c	/^bool rights_allowed_exchange(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+rights_allowed_sign	src/internal/rights.c	/^bool rights_allowed_sign(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+rights_allowed_time	src/internal/rights.c	/^bool rights_allowed_time($/;"	f	typeref:typename:bool
+rights_allowed_unwrap	src/internal/rights.c	/^bool rights_allowed_unwrap(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+rights_allowed_uuid	src/internal/rights.c	/^bool rights_allowed_uuid($/;"	f	typeref:typename:bool
+rights_allowed_video_output_state	src/internal/rights.c	/^bool rights_allowed_video_output_state($/;"	f	typeref:typename:bool
+rights_validate_format	src/internal/rights.c	/^bool rights_validate_format(const sa_rights* rights) {$/;"	f	typeref:typename:bool
+root	src/internal/json.c	/^    json_value_t* root;$/;"	m	struct:__anon78d9ae530208	typeref:typename:json_value_t *	file:
+root_key_type	src/internal/soc_key_container.c	/^    sa_root_key_type root_key_type;$/;"	m	struct:__anonb7b3a9e80408	typeref:typename:sa_root_key_type	file:
+rsa_decrypt_oaep	src/internal/rsa.c	/^sa_status rsa_decrypt_oaep($/;"	f	typeref:typename:sa_status
+rsa_decrypt_pkcs1v15	src/internal/rsa.c	/^sa_status rsa_decrypt_pkcs1v15($/;"	f	typeref:typename:sa_status
+rsa_generate_key	src/internal/rsa.c	/^sa_status rsa_generate_key($/;"	f	typeref:typename:sa_status
+rsa_get_public	src/internal/rsa.c	/^sa_status rsa_get_public($/;"	f	typeref:typename:sa_status
+rsa_sign_pkcs1v15	src/internal/rsa.c	/^sa_status rsa_sign_pkcs1v15($/;"	f	typeref:typename:sa_status
+rsa_sign_pss	src/internal/rsa.c	/^sa_status rsa_sign_pss($/;"	f	typeref:typename:sa_status
+rsa_validate_private	src/internal/rsa.c	/^size_t rsa_validate_private($/;"	f	typeref:typename:size_t
+rsa_verify_cipher	src/internal/rsa.c	/^sa_status rsa_verify_cipher($/;"	f	typeref:typename:sa_status
+sa_root_key_type	include/porting/otp.h	/^} sa_root_key_type;$/;"	t	typeref:enum:__anon3fac37330103
+signature	src/internal/key_store.c	/^    signature_t signature;$/;"	m	struct:__anon7caf3a4e0508	typeref:typename:signature_t	file:
+signature_t	src/internal/key_store.c	/^} signature_t;$/;"	t	typeref:struct:__anon7caf3a4e0408	file:
+size	src/porting/svp.c	/^    size_t size;$/;"	m	struct:svp_buffer_s	typeref:typename:size_t	file:
+slot_count	src/internal/object_store.c	/^    size_t slot_count;$/;"	m	struct:object_store_s	typeref:typename:size_t	file:
+slot_count	src/internal/slots.c	/^    size_t slot_count;$/;"	m	struct:slots_s	typeref:typename:size_t	file:
+slot_t	include/internal/slots.h	/^typedef uint64_t slot_t; \/\/ NOLINT$/;"	t	typeref:typename:uint64_t
+slots	src/internal/object_store.c	/^    slots_t* slots;$/;"	m	struct:object_store_s	typeref:typename:slots_t *	file:
+slots_allocate	src/internal/slots.c	/^slot_t slots_allocate(slots_t* slots) {$/;"	f	typeref:typename:slot_t
+slots_free	src/internal/slots.c	/^void slots_free($/;"	f	typeref:typename:void
+slots_init	src/internal/slots.c	/^slots_t* slots_init($/;"	f	typeref:typename:slots_t *
+slots_s	src/internal/slots.c	/^struct slots_s {$/;"	s	file:
+slots_shutdown	src/internal/slots.c	/^void slots_shutdown(slots_t* slots) {$/;"	f	typeref:typename:void
+slots_t	include/internal/slots.h	/^typedef struct slots_s slots_t;$/;"	t	typeref:struct:slots_s
+soc_kc_header_t	src/internal/soc_key_container.c	/^} soc_kc_header_t;$/;"	t	typeref:struct:__anonb7b3a9e80208	file:
+soc_kc_payload_t	src/internal/soc_key_container.c	/^} soc_kc_payload_t;$/;"	t	typeref:struct:__anonb7b3a9e80408	file:
+soc_kc_unpacked_create	src/internal/soc_key_container.c	/^static soc_kc_unpacked_t* soc_kc_unpacked_create() {$/;"	f	typeref:typename:soc_kc_unpacked_t *	file:
+soc_kc_unpacked_free	src/internal/soc_key_container.c	/^static void soc_kc_unpacked_free(soc_kc_unpacked_t* unpacked) {$/;"	f	typeref:typename:void	file:
+soc_kc_unpacked_t	src/internal/soc_key_container.c	/^} soc_kc_unpacked_t;$/;"	t	typeref:struct:__anonb7b3a9e80108	file:
+soc_kc_unwrap	src/internal/soc_key_container.c	/^sa_status soc_kc_unwrap($/;"	f	typeref:typename:sa_status
+stack	src/internal/json.c	/^    json_stack_t* stack;$/;"	m	struct:__anon78d9ae530208	typeref:typename:json_stack_t *	file:
+start_array_callback	src/internal/json.c	/^static int start_array_callback(void* context) {$/;"	f	typeref:typename:int	file:
+start_map_callback	src/internal/json.c	/^static int start_map_callback(void* context) {$/;"	f	typeref:typename:int	file:
+state	src/porting/video_output.c	/^    video_output_state_t state;$/;"	m	struct:__anon3117b5860108	typeref:typename:video_output_state_t	file:
+store_object_t	src/internal/object_store.c	/^} store_object_t;$/;"	t	typeref:struct:__anonc2e8b4dc0108	file:
+store_remove	src/internal/object_store.c	/^static sa_status store_remove($/;"	f	typeref:typename:sa_status	file:
+stored_key	src/internal/cipher_store.c	/^    stored_key_t* stored_key;$/;"	m	struct:cipher_s	typeref:typename:stored_key_t *	file:
+stored_key_create	src/internal/stored_key.c	/^sa_status stored_key_create($/;"	f	typeref:typename:sa_status
+stored_key_free	src/internal/stored_key.c	/^void stored_key_free(stored_key_t* stored_key) {$/;"	f	typeref:typename:void
+stored_key_get_header	src/internal/stored_key.c	/^const sa_header* stored_key_get_header(const stored_key_t* stored_key) {$/;"	f	typeref:typename:const sa_header *
+stored_key_get_key	src/internal/stored_key.c	/^const void* stored_key_get_key(const stored_key_t* stored_key) {$/;"	f	typeref:typename:const void *
+stored_key_get_length	src/internal/stored_key.c	/^size_t stored_key_get_length(const stored_key_t* stored_key) {$/;"	f	typeref:typename:size_t
+stored_key_import	src/internal/stored_key.c	/^sa_status stored_key_import($/;"	f	typeref:typename:sa_status
+stored_key_s	src/internal/stored_key.c	/^struct stored_key_s {$/;"	s	file:
+stored_key_t	include/internal/stored_key.h	/^typedef struct stored_key_s stored_key_t;$/;"	t	typeref:struct:stored_key_s
+string_callback	src/internal/json.c	/^static int string_callback($/;"	f	typeref:typename:int	file:
+string_new	src/internal/json.c	/^static char* string_new($/;"	f	typeref:typename:char *	file:
+string_to_lowercase	src/internal/json.c	/^void string_to_lowercase($/;"	f	typeref:typename:void
+svp_buffer_s	src/porting/svp.c	/^struct svp_buffer_s {$/;"	s	file:
+svp_buffer_t	include/porting/svp.h	/^typedef struct svp_buffer_s svp_buffer_t;$/;"	t	typeref:struct:svp_buffer_s
+svp_buffer_write	test/ta_sa_svp_crypto.cpp	/^sa_status TaProcessCommonEncryptionTest::svp_buffer_write($/;"	f	class:TaProcessCommonEncryptionTest	typeref:typename:sa_status
+svp_copy	src/porting/svp.c	/^bool svp_copy($/;"	f	typeref:typename:bool
+svp_create	src/internal/svp_store.c	/^static svp_t* svp_create($/;"	f	typeref:typename:svp_t *	file:
+svp_create_buffer	src/porting/svp.c	/^bool svp_create_buffer($/;"	f	typeref:typename:bool
+svp_digest	src/porting/svp.c	/^bool svp_digest($/;"	f	typeref:typename:bool
+svp_enabled	include/porting/video_output.h	/^    bool svp_enabled;$/;"	m	struct:__anon51c7f2670108	typeref:typename:bool
+svp_free	src/internal/svp_store.c	/^static void svp_free(void* object) {$/;"	f	typeref:typename:void	file:
+svp_get_buffer	src/internal/svp_store.c	/^svp_buffer_t* svp_get_buffer(const svp_t* svp) {$/;"	f	typeref:typename:svp_buffer_t *
+svp_get_size	src/porting/svp.c	/^size_t svp_get_size(const svp_buffer_t* svp_buffer) {$/;"	f	typeref:typename:size_t
+svp_get_svp_memory	src/porting/svp.c	/^void* svp_get_svp_memory(const svp_buffer_t* svp_buffer) {$/;"	f	typeref:typename:void *
+svp_key_check	src/porting/svp.c	/^bool svp_key_check($/;"	f	typeref:typename:bool
+svp_lock	src/internal/svp_store.c	/^static bool svp_lock(svp_t* svp) {$/;"	f	typeref:typename:bool	file:
+svp_memory	src/porting/svp.c	/^    void* svp_memory;$/;"	m	struct:svp_buffer_s	typeref:typename:void *	file:
+svp_release_buffer	src/porting/svp.c	/^bool svp_release_buffer($/;"	f	typeref:typename:bool
+svp_s	src/internal/svp_store.c	/^struct svp_s {$/;"	s	file:
+svp_store	src/internal/client_store.c	/^    svp_store_t* svp_store;$/;"	m	struct:client_s	typeref:typename:svp_store_t *	file:
+svp_store_acquire_exclusive	src/internal/svp_store.c	/^sa_status svp_store_acquire_exclusive($/;"	f	typeref:typename:sa_status
+svp_store_create	src/internal/svp_store.c	/^sa_status svp_store_create($/;"	f	typeref:typename:sa_status
+svp_store_init	src/internal/svp_store.c	/^svp_store_t* svp_store_init(size_t size) {$/;"	f	typeref:typename:svp_store_t *
+svp_store_release	src/internal/svp_store.c	/^sa_status svp_store_release($/;"	f	typeref:typename:sa_status
+svp_store_release_exclusive	src/internal/svp_store.c	/^sa_status svp_store_release_exclusive($/;"	f	typeref:typename:sa_status
+svp_store_shutdown	src/internal/svp_store.c	/^void svp_store_shutdown(svp_store_t* store) {$/;"	f	typeref:typename:void
+svp_store_t	include/internal/svp_store.h	/^typedef object_store_t svp_store_t;$/;"	t	typeref:typename:object_store_t
+svp_supported	src/internal/svp_store.c	/^sa_status svp_supported() {$/;"	f	typeref:typename:sa_status
+svp_t	include/internal/svp_store.h	/^typedef struct svp_s svp_t;$/;"	t	typeref:struct:svp_s
+svp_unlock	src/internal/svp_store.c	/^static void svp_unlock(svp_t* svp) {$/;"	f	typeref:typename:void	file:
+svp_validate_buffer	src/porting/svp.c	/^static bool svp_validate_buffer(const svp_buffer_t* svp_buffer) {$/;"	f	typeref:typename:bool	file:
+svp_write	src/porting/svp.c	/^bool svp_write($/;"	f	typeref:typename:bool
+swap_native_binary	src/internal/dh.c	/^static void swap_native_binary($/;"	f	typeref:typename:void	file:
+symmetric_context	src/internal/cipher_store.c	/^    symmetric_context_t* symmetric_context;$/;"	m	struct:cipher_s	typeref:typename:symmetric_context_t *	file:
+symmetric_context_decrypt	src/internal/symmetric.c	/^sa_status symmetric_context_decrypt($/;"	f	typeref:typename:sa_status
+symmetric_context_decrypt_last	src/internal/symmetric.c	/^sa_status symmetric_context_decrypt_last($/;"	f	typeref:typename:sa_status
+symmetric_context_encrypt	src/internal/symmetric.c	/^sa_status symmetric_context_encrypt($/;"	f	typeref:typename:sa_status
+symmetric_context_encrypt_last	src/internal/symmetric.c	/^sa_status symmetric_context_encrypt_last($/;"	f	typeref:typename:sa_status
+symmetric_context_free	src/internal/symmetric.c	/^void symmetric_context_free(symmetric_context_t* context) {$/;"	f	typeref:typename:void
+symmetric_context_get_tag	src/internal/symmetric.c	/^sa_status symmetric_context_get_tag($/;"	f	typeref:typename:sa_status
+symmetric_context_s	src/internal/symmetric.c	/^struct symmetric_context_s {$/;"	s	file:
+symmetric_context_set_iv	src/internal/symmetric.c	/^sa_status symmetric_context_set_iv($/;"	f	typeref:typename:sa_status
+symmetric_context_set_tag	src/internal/symmetric.c	/^sa_status symmetric_context_set_tag($/;"	f	typeref:typename:sa_status
+symmetric_context_t	include/internal/symmetric.h	/^typedef struct symmetric_context_s symmetric_context_t;$/;"	t	typeref:struct:symmetric_context_s
+symmetric_create_aes_cbc_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_cbc_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_cbc_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_cbc_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_ctr_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_ctr_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_ctr_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_ctr_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_ecb_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_ecb_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_ecb_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_ecb_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_gcm_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_gcm_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_aes_gcm_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_aes_gcm_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_chacha20_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_chacha20_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_chacha20_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_chacha20_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_chacha20_poly1305_decrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_chacha20_poly1305_decrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_create_chacha20_poly1305_encrypt_context	src/internal/symmetric.c	/^symmetric_context_t* symmetric_create_chacha20_poly1305_encrypt_context($/;"	f	typeref:typename:symmetric_context_t *
+symmetric_generate_key	src/internal/symmetric.c	/^sa_status symmetric_generate_key($/;"	f	typeref:typename:sa_status
+symmetric_verify_cipher	src/internal/symmetric.c	/^sa_status symmetric_verify_cipher($/;"	f	typeref:typename:sa_status
+ta_client	include/ta_sa_types.h	/^typedef sa_handle ta_client;$/;"	t	typeref:typename:sa_handle
+ta_client_shutdown	test/ta_test_helpers.cpp	/^        void ta_client_shutdown() {$/;"	f	namespace:ta_test_helpers::__anon1567e56b0111	typeref:typename:void
+ta_close_session_handler	src/internal/ta.c	/^void ta_close_session_handler(void* session_context) {$/;"	f	typeref:typename:void
+ta_id	src/internal/soc_key_container.c	/^    char ta_id[UUID_LENGTH];$/;"	m	struct:__anonb7b3a9e80308	typeref:typename:char[]	file:
+ta_invoke_command_handler	src/internal/ta.c	/^sa_status ta_invoke_command_handler($/;"	f	typeref:typename:sa_status
+ta_invoke_crypto_cipher_init	src/internal/ta.c	/^static sa_status ta_invoke_crypto_cipher_init($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_cipher_process	src/internal/ta.c	/^static sa_status ta_invoke_crypto_cipher_process($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_cipher_release	src/internal/ta.c	/^static sa_status ta_invoke_crypto_cipher_release($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_cipher_update_iv	src/internal/ta.c	/^static sa_status ta_invoke_crypto_cipher_update_iv($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_mac_compute	src/internal/ta.c	/^static sa_status ta_invoke_crypto_mac_compute($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_mac_init	src/internal/ta.c	/^static sa_status ta_invoke_crypto_mac_init($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_mac_process	src/internal/ta.c	/^static sa_status ta_invoke_crypto_mac_process($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_mac_process_key	src/internal/ta.c	/^static sa_status ta_invoke_crypto_mac_process_key($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_mac_release	src/internal/ta.c	/^static sa_status ta_invoke_crypto_mac_release($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_random	src/internal/ta.c	/^static sa_status ta_invoke_crypto_random($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_crypto_sign	src/internal/ta.c	/^static sa_status ta_invoke_crypto_sign($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_get_device_id	src/internal/ta.c	/^static sa_status ta_invoke_get_device_id($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_get_name	src/internal/ta.c	/^static sa_status ta_invoke_get_name($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_get_ta_uuid	src/internal/ta.c	/^static sa_status ta_invoke_get_ta_uuid($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_get_version	src/internal/ta.c	/^static sa_status ta_invoke_get_version($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_derive	src/internal/ta.c	/^static sa_status ta_invoke_key_derive($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_digest	src/internal/ta.c	/^static sa_status ta_invoke_key_digest($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_exchange	src/internal/ta.c	/^static sa_status ta_invoke_key_exchange($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_export	src/internal/ta.c	/^static sa_status ta_invoke_key_export($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_generate	src/internal/ta.c	/^static sa_status ta_invoke_key_generate($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_get_public	src/internal/ta.c	/^static sa_status ta_invoke_key_get_public($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_header	src/internal/ta.c	/^static sa_status ta_invoke_key_header($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_import	src/internal/ta.c	/^static sa_status ta_invoke_key_import($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_provision	src/internal/ta.c	/^static sa_status ta_invoke_key_provision($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_release	src/internal/ta.c	/^static sa_status ta_invoke_key_release($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_key_unwrap	src/internal/ta.c	/^static sa_status ta_invoke_key_unwrap($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_process_common_encryption	src/internal/ta.c	/^static sa_status ta_invoke_process_common_encryption($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_buffer_check	src/internal/ta.c	/^static sa_status ta_invoke_svp_buffer_check($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_buffer_copy	src/internal/ta.c	/^static sa_status ta_invoke_svp_buffer_copy($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_buffer_create	src/internal/ta.c	/^static sa_status ta_invoke_svp_buffer_create($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_buffer_release	src/internal/ta.c	/^static sa_status ta_invoke_svp_buffer_release($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_buffer_write	src/internal/ta.c	/^static sa_status ta_invoke_svp_buffer_write($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_key_check	src/internal/ta.c	/^static sa_status ta_invoke_svp_key_check($/;"	f	typeref:typename:sa_status	file:
+ta_invoke_svp_supported	src/internal/ta.c	/^static sa_status ta_invoke_svp_supported($/;"	f	typeref:typename:sa_status	file:
+ta_open_session_handler	src/internal/ta.c	/^sa_status ta_open_session_handler(void** session_context) {$/;"	f	typeref:typename:sa_status
+ta_sa_close	src/ta_sa_close.c	/^sa_status ta_sa_close($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_cipher_init	src/ta_sa_crypto_cipher_init.c	/^sa_status ta_sa_crypto_cipher_init($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_cipher_init_aes_cbc	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_aes_cbc($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_aes_ctr	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_aes_ctr($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_aes_ecb	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_aes_ecb($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_aes_gcm	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_aes_gcm($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_chacha20	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_chacha20($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_chacha20_poly1305	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_chacha20_poly1305($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_ec	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_ec($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_rsa_oaep	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_rsa_oaep($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_init_rsa_pkcs1v15	src/ta_sa_crypto_cipher_init.c	/^static sa_status ta_sa_crypto_cipher_init_rsa_pkcs1v15($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process	src/ta_sa_crypto_cipher_process.c	/^sa_status ta_sa_crypto_cipher_process($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_cipher_process_ec_elgamal	src/ta_sa_crypto_cipher_process.c	/^static sa_status ta_sa_crypto_cipher_process_ec_elgamal($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_last	src/ta_sa_crypto_cipher_process_last.c	/^sa_status ta_sa_crypto_cipher_process_last($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_cipher_process_last_aes_ctr	src/ta_sa_crypto_cipher_process_last.c	/^static sa_status ta_sa_crypto_cipher_process_last_aes_ctr($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_last_aes_gcm	src/ta_sa_crypto_cipher_process_last.c	/^static sa_status ta_sa_crypto_cipher_process_last_aes_gcm($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_last_aes_pkcs7	src/ta_sa_crypto_cipher_process_last.c	/^static sa_status ta_sa_crypto_cipher_process_last_aes_pkcs7($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_last_chacha20	src/ta_sa_crypto_cipher_process_last.c	/^static sa_status ta_sa_crypto_cipher_process_last_chacha20($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_last_chacha20_poly1305	src/ta_sa_crypto_cipher_process_last.c	/^static sa_status ta_sa_crypto_cipher_process_last_chacha20_poly1305($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_rsa_oaep	src/ta_sa_crypto_cipher_process.c	/^static sa_status ta_sa_crypto_cipher_process_rsa_oaep($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_rsa_pkcs1v15	src/ta_sa_crypto_cipher_process.c	/^static sa_status ta_sa_crypto_cipher_process_rsa_pkcs1v15($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_process_symmetric	src/ta_sa_crypto_cipher_process.c	/^static sa_status ta_sa_crypto_cipher_process_symmetric($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_cipher_release	src/ta_sa_crypto_cipher_release.c	/^sa_status ta_sa_crypto_cipher_release($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_cipher_update_iv	src/ta_sa_crypto_cipher_update_iv.c	/^sa_status ta_sa_crypto_cipher_update_iv($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_mac_compute	src/ta_sa_crypto_mac_compute.c	/^sa_status ta_sa_crypto_mac_compute($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_mac_init	src/ta_sa_crypto_mac_init.c	/^sa_status ta_sa_crypto_mac_init($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_mac_init_cmac	src/ta_sa_crypto_mac_init.c	/^static sa_status ta_sa_crypto_mac_init_cmac($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_mac_init_hmac	src/ta_sa_crypto_mac_init.c	/^static sa_status ta_sa_crypto_mac_init_hmac($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_mac_process	src/ta_sa_crypto_mac_process.c	/^sa_status ta_sa_crypto_mac_process($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_mac_process_key	src/ta_sa_crypto_mac_process_key.c	/^sa_status ta_sa_crypto_mac_process_key($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_mac_release	src/ta_sa_crypto_mac_release.c	/^sa_status ta_sa_crypto_mac_release($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_random	src/ta_sa_crypto_random.c	/^sa_status ta_sa_crypto_random($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_sign	src/ta_sa_crypto_sign.c	/^sa_status ta_sa_crypto_sign($/;"	f	typeref:typename:sa_status
+ta_sa_crypto_sign_ecdsa	src/ta_sa_crypto_sign.c	/^static sa_status ta_sa_crypto_sign_ecdsa($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_sign_eddsa	src/ta_sa_crypto_sign.c	/^static sa_status ta_sa_crypto_sign_eddsa($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_sign_rsa_pkcs1v15	src/ta_sa_crypto_sign.c	/^static sa_status ta_sa_crypto_sign_rsa_pkcs1v15($/;"	f	typeref:typename:sa_status	file:
+ta_sa_crypto_sign_rsa_pss	src/ta_sa_crypto_sign.c	/^static sa_status ta_sa_crypto_sign_rsa_pss($/;"	f	typeref:typename:sa_status	file:
+ta_sa_get_device_id	src/ta_sa_get_device_id.c	/^sa_status ta_sa_get_device_id($/;"	f	typeref:typename:sa_status
+ta_sa_get_name	src/ta_sa_get_name.c	/^sa_status ta_sa_get_name($/;"	f	typeref:typename:sa_status
+ta_sa_get_ta_uuid	src/ta_sa_get_ta_uuid.c	/^sa_status ta_sa_get_ta_uuid($/;"	f	typeref:typename:sa_status
+ta_sa_get_version	src/ta_sa_get_version.c	/^sa_status ta_sa_get_version($/;"	f	typeref:typename:sa_status
+ta_sa_init	src/ta_sa_init.c	/^sa_status ta_sa_init($/;"	f	typeref:typename:sa_status
+ta_sa_key_derive	src/ta_sa_key_derive.c	/^sa_status ta_sa_key_derive($/;"	f	typeref:typename:sa_status
+ta_sa_key_derive_ansi_x963	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_ansi_x963($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_derive_cmac	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_cmac($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_derive_concat	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_concat($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_derive_hkdf	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_hkdf($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_derive_netflix	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_netflix($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_derive_root_key_ladder	src/ta_sa_key_derive.c	/^static sa_status ta_sa_key_derive_root_key_ladder($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_digest	src/ta_sa_key_digest.c	/^sa_status ta_sa_key_digest($/;"	f	typeref:typename:sa_status
+ta_sa_key_exchange	src/ta_sa_key_exchange.c	/^sa_status ta_sa_key_exchange($/;"	f	typeref:typename:sa_status
+ta_sa_key_exchange_dh	src/ta_sa_key_exchange.c	/^static sa_status ta_sa_key_exchange_dh($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_exchange_ecdh	src/ta_sa_key_exchange.c	/^static sa_status ta_sa_key_exchange_ecdh($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_exchange_netflix_dh	src/ta_sa_key_exchange.c	/^static sa_status ta_sa_key_exchange_netflix_dh($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_export	src/ta_sa_key_export.c	/^sa_status ta_sa_key_export($/;"	f	typeref:typename:sa_status
+ta_sa_key_generate	src/ta_sa_key_generate.c	/^sa_status ta_sa_key_generate($/;"	f	typeref:typename:sa_status
+ta_sa_key_generate_dh	src/ta_sa_key_generate.c	/^static sa_status ta_sa_key_generate_dh($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_generate_ec	src/ta_sa_key_generate.c	/^static sa_status ta_sa_key_generate_ec($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_generate_rsa	src/ta_sa_key_generate.c	/^static sa_status ta_sa_key_generate_rsa($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_generate_symmetric	src/ta_sa_key_generate.c	/^static sa_status ta_sa_key_generate_symmetric($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_get_public	src/ta_sa_key_get_public.c	/^sa_status ta_sa_key_get_public($/;"	f	typeref:typename:sa_status
+ta_sa_key_get_public_dh	src/ta_sa_key_get_public.c	/^static sa_status ta_sa_key_get_public_dh($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_get_public_ec	src/ta_sa_key_get_public.c	/^static sa_status ta_sa_key_get_public_ec($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_get_public_rsa	src/ta_sa_key_get_public.c	/^static sa_status ta_sa_key_get_public_rsa($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_header	src/ta_sa_key_header.c	/^sa_status ta_sa_key_header($/;"	f	typeref:typename:sa_status
+ta_sa_key_import	src/ta_sa_key_import.c	/^sa_status ta_sa_key_import($/;"	f	typeref:typename:sa_status
+ta_sa_key_import_ec_private_bytes	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_ec_private_bytes($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_import_exported	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_exported($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_import_rsa_private_key_info	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_rsa_private_key_info($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_import_soc	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_soc($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_import_symmetric_bytes	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_symmetric_bytes($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_import_typej	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_import_typej($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_provision	src/ta_sa_key_import.c	/^static sa_status ta_sa_key_provision($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_release	src/ta_sa_key_release.c	/^sa_status ta_sa_key_release($/;"	f	typeref:typename:sa_status
+ta_sa_key_unwrap	src/ta_sa_key_unwrap.c	/^sa_status ta_sa_key_unwrap($/;"	f	typeref:typename:sa_status
+ta_sa_key_unwrap_aes_cbc	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_aes_cbc($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_aes_ctr	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_aes_ctr($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_aes_ecb	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_aes_ecb($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_aes_gcm	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_aes_gcm($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_chacha20	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_chacha20($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_chacha20_poly1305	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_chacha20_poly1305($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_ec	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_ec($/;"	f	typeref:typename:sa_status	file:
+ta_sa_key_unwrap_rsa	src/ta_sa_key_unwrap.c	/^static sa_status ta_sa_key_unwrap_rsa($/;"	f	typeref:typename:sa_status	file:
+ta_sa_process_common_encryption	src/ta_sa_process_common_encryption.c	/^sa_status ta_sa_process_common_encryption($/;"	f	typeref:typename:sa_status
+ta_sa_svp_buffer_check	src/ta_sa_svp_buffer_check.c	/^sa_status ta_sa_svp_buffer_check($/;"	f	typeref:typename:sa_status
+ta_sa_svp_buffer_copy	src/ta_sa_svp_buffer_copy.c	/^sa_status ta_sa_svp_buffer_copy($/;"	f	typeref:typename:sa_status
+ta_sa_svp_buffer_create	src/ta_sa_svp_buffer_create.c	/^sa_status ta_sa_svp_buffer_create($/;"	f	typeref:typename:sa_status
+ta_sa_svp_buffer_release	src/ta_sa_svp_buffer_release.c	/^sa_status ta_sa_svp_buffer_release($/;"	f	typeref:typename:sa_status
+ta_sa_svp_buffer_write	src/ta_sa_svp_buffer_write.c	/^sa_status ta_sa_svp_buffer_write($/;"	f	typeref:typename:sa_status
+ta_sa_svp_key_check	src/ta_sa_svp_key_check.c	/^sa_status ta_sa_svp_key_check($/;"	f	typeref:typename:sa_status
+ta_sa_svp_memory_alloc	test/ta_test_helpers.cpp	/^    sa_status ta_sa_svp_memory_alloc($/;"	f	namespace:ta_test_helpers	typeref:typename:sa_status
+ta_sa_svp_memory_free	test/ta_test_helpers.cpp	/^    sa_status ta_sa_svp_memory_free(void* svp_memory) {$/;"	f	namespace:ta_test_helpers	typeref:typename:sa_status
+ta_sa_svp_supported	src/ta_sa_svp_supported.c	/^sa_status ta_sa_svp_supported($/;"	f	typeref:typename:sa_status
+ta_session_context	src/internal/ta.c	/^} ta_session_context;$/;"	t	typeref:struct:__anon0ef0e64e0108	file:
+ta_test_helpers	test/ta_test_helpers.cpp	/^namespace ta_test_helpers {$/;"	n	file:
+ta_test_helpers	test/ta_test_helpers.h	/^namespace ta_test_helpers {$/;"	n
+ta_uuid	test/ta_test_helpers.cpp	/^    const sa_uuid* ta_uuid() {$/;"	f	namespace:ta_test_helpers	typeref:typename:const sa_uuid *
+taimpl	CMakeLists.txt	/^add_library(taimpl STATIC$/;"	t
+taimpl	CMakeLists.txt	/^project(taimpl)$/;"	p
+taimpltest	CMakeLists.txt	/^    add_executable(taimpltest$/;"	t
+transport_authenticate_caller	src/porting/transport.c	/^sa_status transport_authenticate_caller(sa_uuid* uuid) {$/;"	f	typeref:typename:sa_status
+type	src/internal/json.c	/^    json_type_e type;$/;"	m	struct:json_value_s	typeref:typename:json_type_e	file:
+typej_right_e	src/internal/typej.c	/^} typej_right_e;$/;"	t	typeref:enum:__anona3e2ede50103	file:
+typej_unpacked_create	src/internal/typej.c	/^static typej_unpacked_t* typej_unpacked_create() {$/;"	f	typeref:typename:typej_unpacked_t *	file:
+typej_unpacked_free	src/internal/typej.c	/^static void typej_unpacked_free(typej_unpacked_t* unpacked) {$/;"	f	typeref:typename:void	file:
+typej_unpacked_t	src/internal/typej.c	/^} typej_unpacked_t;$/;"	t	typeref:struct:__anona3e2ede50208	file:
+typej_unwrap	src/internal/typej.c	/^sa_status typej_unwrap($/;"	f	typeref:typename:sa_status
+unpack_soc_kc	src/internal/soc_key_container.c	/^static soc_kc_unpacked_t* unpack_soc_kc($/;"	f	typeref:typename:soc_kc_unpacked_t *	file:
+unpack_typej	src/internal/typej.c	/^static typej_unpacked_t* unpack_typej($/;"	f	typeref:typename:typej_unpacked_t *	file:
+unwrap	src/internal/key_store.c	/^static stored_key_t* unwrap($/;"	f	typeref:typename:stored_key_t *	file:
+unwrap_aes_cbc	src/internal/unwrap.c	/^sa_status unwrap_aes_cbc($/;"	f	typeref:typename:sa_status
+unwrap_aes_cbc_internal	src/porting/otp.c	/^sa_status unwrap_aes_cbc_internal($/;"	f	typeref:typename:sa_status
+unwrap_aes_ctr	src/internal/unwrap.c	/^sa_status unwrap_aes_ctr($/;"	f	typeref:typename:sa_status
+unwrap_aes_ecb	src/internal/unwrap.c	/^sa_status unwrap_aes_ecb($/;"	f	typeref:typename:sa_status
+unwrap_aes_ecb_internal	src/porting/otp.c	/^sa_status unwrap_aes_ecb_internal($/;"	f	typeref:typename:sa_status
+unwrap_aes_gcm	src/internal/unwrap.c	/^sa_status unwrap_aes_gcm($/;"	f	typeref:typename:sa_status
+unwrap_aes_gcm_internal	src/porting/otp.c	/^sa_status unwrap_aes_gcm_internal($/;"	f	typeref:typename:sa_status
+unwrap_chacha20	src/internal/unwrap.c	/^sa_status unwrap_chacha20($/;"	f	typeref:typename:sa_status
+unwrap_chacha20_poly1305	src/internal/unwrap.c	/^sa_status unwrap_chacha20_poly1305($/;"	f	typeref:typename:sa_status
+unwrap_ec	src/internal/unwrap.c	/^sa_status unwrap_ec($/;"	f	typeref:typename:sa_status
+unwrap_key_v1	src/internal/typej.c	/^static sa_status unwrap_key_v1($/;"	f	typeref:typename:sa_status	file:
+unwrap_key_v2	src/internal/typej.c	/^static sa_status unwrap_key_v2($/;"	f	typeref:typename:sa_status	file:
+unwrap_key_v3	src/internal/typej.c	/^static sa_status unwrap_key_v3($/;"	f	typeref:typename:sa_status	file:
+unwrap_rsa	src/internal/unwrap.c	/^sa_status unwrap_rsa($/;"	f	typeref:typename:sa_status
+valid_aes_size	src/internal/key_type.c	/^static bool valid_aes_size(size_t size) {$/;"	f	typeref:typename:bool	file:
+valid_dh_size	src/internal/key_type.c	/^static bool valid_dh_size(size_t size) {$/;"	f	typeref:typename:bool	file:
+valid_ec_size	src/internal/key_type.c	/^static bool valid_ec_size(sa_elliptic_curve curve, size_t size) {$/;"	f	typeref:typename:bool	file:
+valid_hmac_size	src/internal/key_type.c	/^static bool valid_hmac_size(size_t size) {$/;"	f	typeref:typename:bool	file:
+valid_rsa_size	src/internal/key_type.c	/^static bool valid_rsa_size(size_t size) {$/;"	f	typeref:typename:bool	file:
+validate_header_format	src/internal/key_store.c	/^static bool validate_header_format(const sa_header *hdr) {$/;"	f	typeref:typename:bool	file:
+validate_video_output_state	src/internal/rights.c	/^static bool validate_video_output_state(const sa_rights* rights) {$/;"	f	typeref:typename:bool	file:
+value	include/internal/json.h	/^    const json_value_t* value;$/;"	m	struct:__anond55ceab40208	typeref:typename:const json_value_t *
+value	src/internal/json.c	/^    json_value_t* value;$/;"	m	struct:json_array_s	typeref:typename:json_value_t *	file:
+value	src/internal/json.c	/^    json_value_t* value;$/;"	m	struct:json_map_s	typeref:typename:json_value_t *	file:
+value	src/internal/json.c	/^    json_value_t* value;$/;"	m	struct:json_stack_s	typeref:typename:json_value_t *	file:
+verify	test/ta_sa_svp_crypto.cpp	/^    bool verify($/;"	f	namespace:__anon3173dd050111	typeref:typename:bool
+verify_mac	src/internal/typej.c	/^static sa_status verify_mac($/;"	f	typeref:typename:sa_status	file:
+verify_sample	src/ta_sa_process_common_encryption.c	/^static sa_status verify_sample($/;"	f	typeref:typename:sa_status	file:
+version	src/internal/saimpl.c	/^static const sa_version version = {$/;"	v	typeref:typename:const sa_version	file:
+video_output_poll	src/porting/video_output.c	/^bool video_output_poll(video_output_state_t* state) {$/;"	f	typeref:typename:bool
+video_output_state_t	include/porting/video_output.h	/^} video_output_state_t;$/;"	t	typeref:struct:__anon51c7f2670108
+wrap_aes_cbc	src/porting/otp.c	/^static sa_status wrap_aes_cbc($/;"	f	typeref:typename:sa_status	file:
+wrapped_key_create	src/internal/key_store.c	/^static wrapped_key_t* wrapped_key_create($/;"	f	typeref:typename:wrapped_key_t *	file:
+wrapped_key_free	src/internal/key_store.c	/^static void wrapped_key_free(void* obj) {$/;"	f	typeref:typename:void	file:
+wrapped_key_t	src/internal/key_store.c	/^} wrapped_key_t;$/;"	t	typeref:struct:__anon7caf3a4e0508	file:
+wrapped_key_unwrap	src/internal/key_store.c	/^static stored_key_t* wrapped_key_unwrap(const wrapped_key_t* wrapped_key) {$/;"	f	typeref:typename:stored_key_t *	file:
+wrapping_key_inputs	src/internal/key_store.c	/^    key_ladder_inputs_t wrapping_key_inputs;$/;"	m	struct:__anon7caf3a4e0108	typeref:typename:key_ladder_inputs_t	file:
+xor	src/internal/key_store.c	/^static void xor($/;"	f	typeref:typename:void	file:
+yajl	src/internal/json.c	/^    yajl_handle yajl;$/;"	m	struct:__anon78d9ae530208	typeref:typename:yajl_handle	file:

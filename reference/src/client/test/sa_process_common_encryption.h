@@ -36,7 +36,6 @@ protected:
         sa_svp_buffer out,
         const void* in,
         size_t in_length) override;
-
     ~SaProcessCommonEncryptionBase() = default;
 };
 

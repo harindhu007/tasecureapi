@@ -70,10 +70,12 @@ sa_status sa_svp_key_check(
             param1_size = in->context.clear.length;
             param1_type = TA_PARAM_IN;
         } else {
+#ifndef DISABLE_SVP
             svp_key_check->in_offset = in->context.svp.offset;
             CREATE_PARAM(param1, &in->context.svp.buffer, sizeof(sa_svp_buffer));
             param1_size = sizeof(sa_svp_buffer);
             param1_type = TA_PARAM_IN;
+#endif
         }
 
         CREATE_PARAM(param2, (void*) expected, expected_length);
@@ -95,8 +97,11 @@ sa_status sa_svp_key_check(
 
         if (in->buffer_type == SA_BUFFER_TYPE_CLEAR)
             in->context.clear.offset = svp_key_check->in_offset;
-        else
+        else {
+#ifndef DISABLE_SVP
             in->context.svp.offset = svp_key_check->in_offset;
+#endif
+	}
     } while (false);
 
     RELEASE_COMMAND(svp_key_check);

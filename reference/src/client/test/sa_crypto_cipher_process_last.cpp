@@ -175,9 +175,10 @@ namespace {
         ASSERT_NE(out_buffer, nullptr);
         if (buffer_type == SA_BUFFER_TYPE_CLEAR)
             out_buffer->context.clear.offset = SIZE_MAX - 4;
+#ifndef DISABLE_SVP
         else
             out_buffer->context.svp.offset = SIZE_MAX - 4;
-
+#endif
         status = sa_crypto_cipher_process_last(out_buffer.get(), *cipher, in_buffer.get(), &bytes_to_process, nullptr);
         ASSERT_EQ(status, SA_STATUS_INVALID_PARAMETER);
     }
@@ -210,9 +211,11 @@ namespace {
         ASSERT_NE(out_buffer, nullptr);
         if (buffer_type == SA_BUFFER_TYPE_CLEAR)
             in_buffer->context.clear.offset = SIZE_MAX - 4;
+#ifndef DISABLE_SVP
         else
             in_buffer->context.svp.offset = SIZE_MAX - 4;
-
+#endif
+	ERROR("Buffer type =%d\n", buffer_type);
         status = sa_crypto_cipher_process_last(out_buffer.get(), *cipher, in_buffer.get(), &bytes_to_process, nullptr);
         ASSERT_EQ(status, SA_STATUS_INVALID_PARAMETER);
     }

@@ -21,6 +21,7 @@ project(tasecureapi)
 
 option(BUILD_TESTS "Builds and installs the unit tests" ON)
 option(BUILD_DOC   "Build documentation" ON)
+option(DISABLE_SVP   "Build SecAPI without SVP" OFF)
 
 if(${BUILD_TESTS})
     # Download and unpack googletest at configure time

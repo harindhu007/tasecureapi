@@ -16,6 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+#ifndef DISABLE_SVP
+
 #ifndef TA_SA_SVP_COMMON_H
 #define TA_SA_SVP_COMMON_H
 
@@ -42,3 +44,6 @@ class TaSvpBufferCopyTest : public ::testing::WithParamInterface<TaSvpBufferTest
 class TaSvpBufferWriteTest : public ::testing::WithParamInterface<TaSvpBufferTestType>, public TaSvpBase {};
 
 #endif // TA_SA_SVP_COMMON_H
+
+#endif // DISABLE_SVP
+

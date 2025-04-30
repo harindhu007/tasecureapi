@@ -15,7 +15,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include "client.h"
 #include "log.h"
 #include "sa.h"
@@ -23,6 +22,10 @@
 #include <stdbool.h>
 
 sa_status sa_svp_supported() {
+#ifdef DISABLE_SVP
+    ERROR("SA_STATUS_OPERATION_NOT_SUPPORTED");
+    return SA_STATUS_OPERATION_NOT_SUPPORTED;
+#endif
 
     void* session = client_session();
     if (session == NULL) {

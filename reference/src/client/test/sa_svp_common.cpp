@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+#ifndef DISABLE_SVP
 #include "sa_svp_common.h" // NOLINT
 #include "client_test_helpers.h"
 
@@ -57,3 +57,4 @@ INSTANTIATE_TEST_SUITE_P(
         SaSvpBufferWriteTests,
         SaSvpBufferWriteTest,
         ::testing::Values(1, 3, 10));
+#endif //DISABLE_SVP

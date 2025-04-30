@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+#ifndef DISABLE_SVP
 #include "client_test_helpers.h"
 #include "sa.h"
 #include "gtest/gtest.h" // NOLINT
@@ -134,3 +134,4 @@ namespace {
         ASSERT_EQ(SA_STATUS_OK, future.get());
     }
 } // namespace
+#endif

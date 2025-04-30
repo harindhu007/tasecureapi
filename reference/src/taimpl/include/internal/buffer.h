@@ -21,7 +21,6 @@
  *
  * This file contains the functions implementing buffer access.
  */
-
 #ifndef BUFFER_H
 #define BUFFER_H
 
@@ -57,3 +56,4 @@ sa_status convert_buffer(
 #endif
 
 #endif // BUFFER_H
+

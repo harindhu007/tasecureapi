@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  ".3.4.0"
+  "CMakeFiles/saclient.dir/src/sa_engine.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_engine_cipher.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine_cipher.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_engine_digest.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine_digest.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey_asn1_method.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey_asn1_method.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey_data.c.o"
+  "CMakeFiles/saclient.dir/src/sa_engine_pkey_data.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_asym_cipher.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_asym_cipher.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_cipher.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_cipher.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_digest.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_digest.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_kdf.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_kdf.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_keyexch.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_keyexch.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_keymgt.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_keymgt.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_mac.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_mac.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_provider_signature.c.o"
+  "CMakeFiles/saclient.dir/src/sa_provider_signature.c.o.d"
+  "CMakeFiles/saclient.dir/src/sa_public_key.c.o"
+  "CMakeFiles/saclient.dir/src/sa_public_key.c.o.d"
+  "libsaclient.pdb"
+  "libsaclient.so"
+  "libsaclient.so.3.4.0"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/saclient.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

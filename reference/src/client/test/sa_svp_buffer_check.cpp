@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+#ifndef DISABLE_SVP 
 #include "client_test_helpers.h"
 #include "sa.h"
 #include "sa_svp_common.h"
@@ -33,3 +33,4 @@ namespace {
         ASSERT_EQ(status, SA_STATUS_OPERATION_NOT_ALLOWED);
     }
 } // namespace
+#endif

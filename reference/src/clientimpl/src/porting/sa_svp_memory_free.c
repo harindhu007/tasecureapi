@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+#ifndef DISABLE_SVP
 #include "sa.h"
 #include "ta_client.h"
 
@@ -27,3 +27,4 @@ sa_status sa_svp_memory_free(void* svp_memory) {
 
     return SA_STATUS_OK;
 }
+#endif

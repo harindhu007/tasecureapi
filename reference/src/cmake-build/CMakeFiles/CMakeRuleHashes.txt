@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+92660b86bf16238b000a3db3ffe53b0d client/CMakeFiles/clangformat
+b08807cf5a7edc1ded03333779b9705f client/CMakeFiles/saclient_clangformat
+b5042e8fb1cb46372cd250ec48ccdfb3 clientimpl/CMakeFiles/saclientimpl_clangformat
+7eac66a425223069692e7921649d52f2 taimpl/CMakeFiles/taimpl_clangformat
+53d42f6faa458a437d343d446fea3fed util/CMakeFiles/util_clangformat

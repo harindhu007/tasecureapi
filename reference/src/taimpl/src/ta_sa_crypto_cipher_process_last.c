@@ -651,24 +651,33 @@ sa_status ta_sa_crypto_cipher_process_last(
         }
 
         if (out != NULL) {
-            if (in->buffer_type == SA_BUFFER_TYPE_SVP)
-                in->context.svp.offset += in_length;
-            else
+            if (in->buffer_type == SA_BUFFER_TYPE_CLEAR) {
                 in->context.clear.offset += in_length;
-
-            if (out->buffer_type == SA_BUFFER_TYPE_SVP)
-                out->context.svp.offset += *bytes_to_process;
-            else
+	    }
+#ifndef DISABLE_SVP
+            else if (in->buffer_type == SA_BUFFER_TYPE_SVP)
+            {
+                in->context.svp.offset += in_length;
+            }
+#endif
+            if (out->buffer_type == SA_BUFFER_TYPE_SVP) {
                 out->context.clear.offset += *bytes_to_process;
+	    }
+#ifndef DISABLE_SVP
+            else if (out->buffer_type == SA_BUFFER_TYPE_SVP)
+	    {
+                out->context.svp.offset += *bytes_to_process;
+	    }
+#endif
         }
     } while (false);
-
+#ifndef DISABLE_SVP
     if (in_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), in->context.svp.buffer, in_svp, caller_uuid);
 
     if (out_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), out->context.svp.buffer, out_svp, caller_uuid);
-
+#endif
     if (cipher != NULL)
         cipher_store_release_exclusive(cipher_store, context, cipher, caller_uuid);
 

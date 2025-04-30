@@ -1,0 +1,324 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ubuntu/hsrini103/svp_refactor/tasecureapi/reference/	//
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+tasecureapi	CMakeLists.txt	/^project(tasecureapi)$/;"	p
+BUILD_TESTS	CMakeLists.txt	/^option(BUILD_TESTS "Builds and installs the unit tests" ON)$/;"	D
+BUILD_DOC	CMakeLists.txt	/^option(BUILD_DOC   "Build documentation" ON)$/;"	D
+Security API Reference Implementation	README.md	/^# Security API Reference Implementation$/;"	c
+Summary	README.md	/^## Summary$/;"	s	chapter:Security API Reference Implementation
+Directories	README.md	/^## Directories$/;"	s	chapter:Security API Reference Implementation
+'client'	README.md	/^### 'client'$/;"	S	section:Security API Reference Implementation""Directories
+'clientimpl'	README.md	/^### 'clientimpl'$/;"	S	section:Security API Reference Implementation""Directories
+'taimpl'	README.md	/^### 'taimpl'$/;"	S	section:Security API Reference Implementation""Directories
+'util'	README.md	/^### 'util'$/;"	S	section:Security API Reference Implementation""Directories
+Building	README.md	/^## Building$/;"	s	chapter:Security API Reference Implementation
+Install	README.md	/^### Install$/;"	S	section:Security API Reference Implementation""Building
+Build artifacts	README.md	/^### Build artifacts$/;"	S	section:Security API Reference Implementation""Building
+saclient	README.md	/^#### saclient$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+saclienttest	README.md	/^#### saclienttest$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+saclientimpl	README.md	/^#### saclientimpl$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+taimpl	README.md	/^#### taimpl$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+taimpltest	README.md	/^#### taimpltest$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+util	README.md	/^#### util$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+utiltest	README.md	/^#### utiltest$/;"	t	subsection:Security API Reference Implementation""Building""Build artifacts
+Versioning	README.md	/^## Versioning$/;"	s	chapter:Security API Reference Implementation
+Porting guidance	README.md	/^## Porting guidance$/;"	s	chapter:Security API Reference Implementation
+Suggested procedure for porting the SecAPI	README.md	/^### Suggested procedure for porting the SecAPI$/;"	S	section:Security API Reference Implementation""Porting guidance
+Secure Heap	README.md	/^### Secure Heap$/;"	S	section:Security API Reference Implementation""Porting guidance
+Coding Standards	README.md	/^## Coding Standards$/;"	s	chapter:Security API Reference Implementation
+prefix_clangformat_setup	cmake/ClangFormat.cmake	/^function(prefix_clangformat_setup prefix)$/;"	f
+CLANGFORMAT_EXECUTABLE	cmake/ClangFormat.cmake	/^         set(CLANGFORMAT_EXECUTABLE clang-format)$/;"	v	function:prefix_clangformat_setup
+CLANGFORMAT_EXECUTABLE	cmake/ClangFormat.cmake	/^            set(CLANGFORMAT_EXECUTABLE ${clangformat_executable_tmp})$/;"	v	function:prefix_clangformat_setup
+clangformat	cmake/ClangFormat.cmake	/^        add_custom_target(clangformat DEPENDS ${prefix}_clangformat)$/;"	t
+clangformat_setup	cmake/ClangFormat.cmake	/^function(clangformat_setup)$/;"	f
+target_clangformat_setup	cmake/ClangFormat.cmake	/^function(target_clangformat_setup target)$/;"	f
+CMAKE_INSTALL_PREFIX	cmake-build/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/usr\/local")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	cmake-build/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "")$/;"	v
+CMAKE_INSTALL_COMPONENT	cmake-build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	cmake-build/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	cmake-build/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "1")$/;"	v
+CMAKE_CROSSCOMPILING	cmake-build/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_OBJDUMP	cmake-build/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
+CMAKE_INSTALL_MANIFEST	cmake-build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	cmake-build/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+DOXYGEN_DOXYFILE_ENCODING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOXYFILE_ENCODING UTF-8)$/;"	v
+DOXYGEN_PROJECT_NAME	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PROJECT_NAME "My Project")$/;"	v
+DOXYGEN_CREATE_SUBDIRS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CREATE_SUBDIRS NO)$/;"	v
+DOXYGEN_CREATE_SUBDIRS_LEVEL	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CREATE_SUBDIRS_LEVEL 8)$/;"	v
+DOXYGEN_ALLOW_UNICODE_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALLOW_UNICODE_NAMES NO)$/;"	v
+DOXYGEN_OUTPUT_LANGUAGE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OUTPUT_LANGUAGE English)$/;"	v
+DOXYGEN_BRIEF_MEMBER_DESC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BRIEF_MEMBER_DESC YES)$/;"	v
+DOXYGEN_REPEAT_BRIEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REPEAT_BRIEF YES)$/;"	v
+DOXYGEN_ABBREVIATE_BRIEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ABBREVIATE_BRIEF "The $name class" $/;"	v
+DOXYGEN_ALWAYS_DETAILED_SEC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALWAYS_DETAILED_SEC NO)$/;"	v
+DOXYGEN_INLINE_INHERITED_MEMB	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_INHERITED_MEMB NO)$/;"	v
+DOXYGEN_FULL_PATH_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FULL_PATH_NAMES YES)$/;"	v
+DOXYGEN_SHORT_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHORT_NAMES NO)$/;"	v
+DOXYGEN_JAVADOC_AUTOBRIEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_JAVADOC_AUTOBRIEF NO)$/;"	v
+DOXYGEN_JAVADOC_BANNER	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_JAVADOC_BANNER NO)$/;"	v
+DOXYGEN_QT_AUTOBRIEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QT_AUTOBRIEF NO)$/;"	v
+DOXYGEN_MULTILINE_CPP_IS_BRIEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MULTILINE_CPP_IS_BRIEF NO)$/;"	v
+DOXYGEN_PYTHON_DOCSTRING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PYTHON_DOCSTRING YES)$/;"	v
+DOXYGEN_INHERIT_DOCS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INHERIT_DOCS YES)$/;"	v
+DOXYGEN_SEPARATE_MEMBER_PAGES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEPARATE_MEMBER_PAGES NO)$/;"	v
+DOXYGEN_TAB_SIZE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TAB_SIZE 4)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_FOR_C	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_FOR_C NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_JAVA	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_JAVA NO)$/;"	v
+DOXYGEN_OPTIMIZE_FOR_FORTRAN	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_FOR_FORTRAN NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_VHDL	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_VHDL NO)$/;"	v
+DOXYGEN_OPTIMIZE_OUTPUT_SLICE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OPTIMIZE_OUTPUT_SLICE NO)$/;"	v
+DOXYGEN_MARKDOWN_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MARKDOWN_SUPPORT YES)$/;"	v
+DOXYGEN_TOC_INCLUDE_HEADINGS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TOC_INCLUDE_HEADINGS 5)$/;"	v
+DOXYGEN_MARKDOWN_ID_STYLE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MARKDOWN_ID_STYLE DOXYGEN)$/;"	v
+DOXYGEN_AUTOLINK_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_AUTOLINK_SUPPORT YES)$/;"	v
+DOXYGEN_BUILTIN_STL_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BUILTIN_STL_SUPPORT NO)$/;"	v
+DOXYGEN_CPP_CLI_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CPP_CLI_SUPPORT NO)$/;"	v
+DOXYGEN_SIP_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SIP_SUPPORT NO)$/;"	v
+DOXYGEN_IDL_PROPERTY_SUPPORT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_IDL_PROPERTY_SUPPORT YES)$/;"	v
+DOXYGEN_DISTRIBUTE_GROUP_DOC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DISTRIBUTE_GROUP_DOC NO)$/;"	v
+DOXYGEN_GROUP_NESTED_COMPOUNDS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GROUP_NESTED_COMPOUNDS NO)$/;"	v
+DOXYGEN_SUBGROUPING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SUBGROUPING YES)$/;"	v
+DOXYGEN_INLINE_GROUPED_CLASSES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_GROUPED_CLASSES NO)$/;"	v
+DOXYGEN_INLINE_SIMPLE_STRUCTS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_SIMPLE_STRUCTS NO)$/;"	v
+DOXYGEN_TYPEDEF_HIDES_STRUCT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TYPEDEF_HIDES_STRUCT NO)$/;"	v
+DOXYGEN_LOOKUP_CACHE_SIZE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LOOKUP_CACHE_SIZE 0)$/;"	v
+DOXYGEN_NUM_PROC_THREADS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_NUM_PROC_THREADS 1)$/;"	v
+DOXYGEN_TIMESTAMP	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TIMESTAMP NO)$/;"	v
+DOXYGEN_EXTRACT_ALL	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_ALL NO)$/;"	v
+DOXYGEN_EXTRACT_PRIVATE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PRIVATE NO)$/;"	v
+DOXYGEN_EXTRACT_PRIV_VIRTUAL	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PRIV_VIRTUAL NO)$/;"	v
+DOXYGEN_EXTRACT_PACKAGE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_PACKAGE NO)$/;"	v
+DOXYGEN_EXTRACT_STATIC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_STATIC NO)$/;"	v
+DOXYGEN_EXTRACT_LOCAL_CLASSES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_LOCAL_CLASSES YES)$/;"	v
+DOXYGEN_EXTRACT_LOCAL_METHODS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_LOCAL_METHODS NO)$/;"	v
+DOXYGEN_EXTRACT_ANON_NSPACES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTRACT_ANON_NSPACES NO)$/;"	v
+DOXYGEN_RESOLVE_UNNAMED_PARAMS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RESOLVE_UNNAMED_PARAMS YES)$/;"	v
+DOXYGEN_HIDE_UNDOC_MEMBERS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_MEMBERS NO)$/;"	v
+DOXYGEN_HIDE_UNDOC_CLASSES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_CLASSES NO)$/;"	v
+DOXYGEN_HIDE_FRIEND_COMPOUNDS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_FRIEND_COMPOUNDS NO)$/;"	v
+DOXYGEN_HIDE_IN_BODY_DOCS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_IN_BODY_DOCS NO)$/;"	v
+DOXYGEN_INTERNAL_DOCS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INTERNAL_DOCS NO)$/;"	v
+DOXYGEN_CASE_SENSE_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CASE_SENSE_NAMES SYSTEM)$/;"	v
+DOXYGEN_HIDE_SCOPE_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_SCOPE_NAMES NO)$/;"	v
+DOXYGEN_HIDE_COMPOUND_REFERENCE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_COMPOUND_REFERENCE NO)$/;"	v
+DOXYGEN_SHOW_HEADERFILE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_HEADERFILE YES)$/;"	v
+DOXYGEN_SHOW_INCLUDE_FILES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_INCLUDE_FILES YES)$/;"	v
+DOXYGEN_SHOW_GROUPED_MEMB_INC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_GROUPED_MEMB_INC NO)$/;"	v
+DOXYGEN_FORCE_LOCAL_INCLUDES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORCE_LOCAL_INCLUDES NO)$/;"	v
+DOXYGEN_INLINE_INFO	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_INFO YES)$/;"	v
+DOXYGEN_SORT_MEMBER_DOCS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_MEMBER_DOCS YES)$/;"	v
+DOXYGEN_SORT_BRIEF_DOCS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_BRIEF_DOCS NO)$/;"	v
+DOXYGEN_SORT_MEMBERS_CTORS_1ST	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_MEMBERS_CTORS_1ST NO)$/;"	v
+DOXYGEN_SORT_GROUP_NAMES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_GROUP_NAMES NO)$/;"	v
+DOXYGEN_SORT_BY_SCOPE_NAME	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SORT_BY_SCOPE_NAME NO)$/;"	v
+DOXYGEN_STRICT_PROTO_MATCHING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_STRICT_PROTO_MATCHING NO)$/;"	v
+DOXYGEN_GENERATE_TODOLIST	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TODOLIST YES)$/;"	v
+DOXYGEN_GENERATE_TESTLIST	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TESTLIST YES)$/;"	v
+DOXYGEN_GENERATE_BUGLIST	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_BUGLIST YES)$/;"	v
+DOXYGEN_GENERATE_DEPRECATEDLIST	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DEPRECATEDLIST YES)$/;"	v
+DOXYGEN_MAX_INITIALIZER_LINES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAX_INITIALIZER_LINES 30)$/;"	v
+DOXYGEN_SHOW_USED_FILES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_USED_FILES YES)$/;"	v
+DOXYGEN_SHOW_FILES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_FILES YES)$/;"	v
+DOXYGEN_SHOW_NAMESPACES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SHOW_NAMESPACES YES)$/;"	v
+DOXYGEN_QUIET	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QUIET NO)$/;"	v
+DOXYGEN_WARNINGS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARNINGS YES)$/;"	v
+DOXYGEN_WARN_IF_UNDOCUMENTED	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_UNDOCUMENTED YES)$/;"	v
+DOXYGEN_WARN_IF_DOC_ERROR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_DOC_ERROR YES)$/;"	v
+DOXYGEN_WARN_IF_INCOMPLETE_DOC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_INCOMPLETE_DOC YES)$/;"	v
+DOXYGEN_WARN_NO_PARAMDOC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_NO_PARAMDOC NO)$/;"	v
+DOXYGEN_WARN_IF_UNDOC_ENUM_VAL	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_IF_UNDOC_ENUM_VAL NO)$/;"	v
+DOXYGEN_WARN_AS_ERROR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_AS_ERROR NO)$/;"	v
+DOXYGEN_WARN_FORMAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_FORMAT "$file:$line: $text")$/;"	v
+DOXYGEN_WARN_LINE_FORMAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_WARN_LINE_FORMAT "at line $line of file $file")$/;"	v
+DOXYGEN_INPUT_ENCODING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INPUT_ENCODING UTF-8)$/;"	v
+DOXYGEN_FILE_PATTERNS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FILE_PATTERNS *.c $/;"	v
+DOXYGEN_RECURSIVE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RECURSIVE NO)$/;"	v
+DOXYGEN_EXCLUDE_SYMLINKS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXCLUDE_SYMLINKS NO)$/;"	v
+DOXYGEN_EXAMPLE_PATTERNS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXAMPLE_PATTERNS *)$/;"	v
+DOXYGEN_EXAMPLE_RECURSIVE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXAMPLE_RECURSIVE NO)$/;"	v
+DOXYGEN_FILTER_SOURCE_FILES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FILTER_SOURCE_FILES NO)$/;"	v
+DOXYGEN_FORTRAN_COMMENT_AFTER	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORTRAN_COMMENT_AFTER 72)$/;"	v
+DOXYGEN_SOURCE_BROWSER	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SOURCE_BROWSER NO)$/;"	v
+DOXYGEN_INLINE_SOURCES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INLINE_SOURCES NO)$/;"	v
+DOXYGEN_STRIP_CODE_COMMENTS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_STRIP_CODE_COMMENTS YES)$/;"	v
+DOXYGEN_REFERENCED_BY_RELATION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCED_BY_RELATION NO)$/;"	v
+DOXYGEN_REFERENCES_RELATION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCES_RELATION NO)$/;"	v
+DOXYGEN_REFERENCES_LINK_SOURCE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_REFERENCES_LINK_SOURCE YES)$/;"	v
+DOXYGEN_SOURCE_TOOLTIPS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SOURCE_TOOLTIPS YES)$/;"	v
+DOXYGEN_USE_HTAGS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_HTAGS NO)$/;"	v
+DOXYGEN_VERBATIM_HEADERS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_VERBATIM_HEADERS YES)$/;"	v
+DOXYGEN_CLANG_ASSISTED_PARSING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLANG_ASSISTED_PARSING NO)$/;"	v
+DOXYGEN_CLANG_ADD_INC_PATHS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLANG_ADD_INC_PATHS YES)$/;"	v
+DOXYGEN_ALPHABETICAL_INDEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALPHABETICAL_INDEX YES)$/;"	v
+DOXYGEN_GENERATE_HTML	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_HTML YES)$/;"	v
+DOXYGEN_HTML_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_OUTPUT html)$/;"	v
+DOXYGEN_HTML_FILE_EXTENSION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_FILE_EXTENSION .html)$/;"	v
+DOXYGEN_HTML_COLORSTYLE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE AUTO_LIGHT)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_HUE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_HUE 220)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_SAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_SAT 100)$/;"	v
+DOXYGEN_HTML_COLORSTYLE_GAMMA	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_COLORSTYLE_GAMMA 80)$/;"	v
+DOXYGEN_HTML_DYNAMIC_MENUS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_DYNAMIC_MENUS YES)$/;"	v
+DOXYGEN_HTML_DYNAMIC_SECTIONS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_DYNAMIC_SECTIONS NO)$/;"	v
+DOXYGEN_HTML_CODE_FOLDING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_CODE_FOLDING YES)$/;"	v
+DOXYGEN_HTML_INDEX_NUM_ENTRIES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_INDEX_NUM_ENTRIES 100)$/;"	v
+DOXYGEN_GENERATE_DOCSET	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DOCSET NO)$/;"	v
+DOXYGEN_DOCSET_FEEDNAME	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_FEEDNAME "Doxygen generated docs")$/;"	v
+DOXYGEN_DOCSET_BUNDLE_ID	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_BUNDLE_ID org.doxygen.Project)$/;"	v
+DOXYGEN_DOCSET_PUBLISHER_ID	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_PUBLISHER_ID org.doxygen.Publisher)$/;"	v
+DOXYGEN_DOCSET_PUBLISHER_NAME	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCSET_PUBLISHER_NAME Publisher)$/;"	v
+DOXYGEN_GENERATE_HTMLHELP	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_HTMLHELP NO)$/;"	v
+DOXYGEN_GENERATE_CHI	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_CHI NO)$/;"	v
+DOXYGEN_BINARY_TOC	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_BINARY_TOC NO)$/;"	v
+DOXYGEN_TOC_EXPAND	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TOC_EXPAND NO)$/;"	v
+DOXYGEN_GENERATE_QHP	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_QHP NO)$/;"	v
+DOXYGEN_QHP_NAMESPACE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QHP_NAMESPACE org.doxygen.Project)$/;"	v
+DOXYGEN_QHP_VIRTUAL_FOLDER	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_QHP_VIRTUAL_FOLDER doc)$/;"	v
+DOXYGEN_GENERATE_ECLIPSEHELP	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_ECLIPSEHELP NO)$/;"	v
+DOXYGEN_ECLIPSE_DOC_ID	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ECLIPSE_DOC_ID org.doxygen.Project)$/;"	v
+DOXYGEN_DISABLE_INDEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DISABLE_INDEX NO)$/;"	v
+DOXYGEN_GENERATE_TREEVIEW	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_TREEVIEW NO)$/;"	v
+DOXYGEN_FULL_SIDEBAR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FULL_SIDEBAR NO)$/;"	v
+DOXYGEN_ENUM_VALUES_PER_LINE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ENUM_VALUES_PER_LINE 4)$/;"	v
+DOXYGEN_TREEVIEW_WIDTH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TREEVIEW_WIDTH 250)$/;"	v
+DOXYGEN_EXT_LINKS_IN_WINDOW	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXT_LINKS_IN_WINDOW NO)$/;"	v
+DOXYGEN_OBFUSCATE_EMAILS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_OBFUSCATE_EMAILS YES)$/;"	v
+DOXYGEN_HTML_FORMULA_FORMAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HTML_FORMULA_FORMAT png)$/;"	v
+DOXYGEN_FORMULA_FONTSIZE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_FORMULA_FONTSIZE 10)$/;"	v
+DOXYGEN_USE_MATHJAX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_MATHJAX NO)$/;"	v
+DOXYGEN_MATHJAX_VERSION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MATHJAX_VERSION MathJax_2)$/;"	v
+DOXYGEN_MATHJAX_FORMAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MATHJAX_FORMAT HTML-CSS)$/;"	v
+DOXYGEN_SEARCHENGINE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCHENGINE YES)$/;"	v
+DOXYGEN_SERVER_BASED_SEARCH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SERVER_BASED_SEARCH NO)$/;"	v
+DOXYGEN_EXTERNAL_SEARCH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_SEARCH NO)$/;"	v
+DOXYGEN_SEARCHDATA_FILE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCHDATA_FILE searchdata.xml)$/;"	v
+DOXYGEN_GENERATE_LATEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_LATEX YES)$/;"	v
+DOXYGEN_LATEX_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_OUTPUT latex)$/;"	v
+DOXYGEN_MAKEINDEX_CMD_NAME	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAKEINDEX_CMD_NAME makeindex)$/;"	v
+DOXYGEN_LATEX_MAKEINDEX_CMD	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_MAKEINDEX_CMD makeindex)$/;"	v
+DOXYGEN_COMPACT_LATEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COMPACT_LATEX NO)$/;"	v
+DOXYGEN_PAPER_TYPE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PAPER_TYPE a4)$/;"	v
+DOXYGEN_PDF_HYPERLINKS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PDF_HYPERLINKS YES)$/;"	v
+DOXYGEN_USE_PDFLATEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_USE_PDFLATEX YES)$/;"	v
+DOXYGEN_LATEX_BATCHMODE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_BATCHMODE NO)$/;"	v
+DOXYGEN_LATEX_HIDE_INDICES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_HIDE_INDICES NO)$/;"	v
+DOXYGEN_LATEX_BIB_STYLE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_LATEX_BIB_STYLE plain)$/;"	v
+DOXYGEN_GENERATE_RTF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_RTF NO)$/;"	v
+DOXYGEN_RTF_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RTF_OUTPUT rtf)$/;"	v
+DOXYGEN_COMPACT_RTF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COMPACT_RTF NO)$/;"	v
+DOXYGEN_RTF_HYPERLINKS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_RTF_HYPERLINKS NO)$/;"	v
+DOXYGEN_GENERATE_MAN	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_MAN NO)$/;"	v
+DOXYGEN_MAN_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_OUTPUT man)$/;"	v
+DOXYGEN_MAN_EXTENSION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_EXTENSION .3)$/;"	v
+DOXYGEN_MAN_LINKS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAN_LINKS NO)$/;"	v
+DOXYGEN_GENERATE_XML	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_XML NO)$/;"	v
+DOXYGEN_XML_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_OUTPUT xml)$/;"	v
+DOXYGEN_XML_PROGRAMLISTING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_PROGRAMLISTING YES)$/;"	v
+DOXYGEN_XML_NS_MEMB_FILE_SCOPE	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_XML_NS_MEMB_FILE_SCOPE NO)$/;"	v
+DOXYGEN_GENERATE_DOCBOOK	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_DOCBOOK NO)$/;"	v
+DOXYGEN_DOCBOOK_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOCBOOK_OUTPUT docbook)$/;"	v
+DOXYGEN_GENERATE_AUTOGEN_DEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_AUTOGEN_DEF NO)$/;"	v
+DOXYGEN_GENERATE_SQLITE3	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_SQLITE3 NO)$/;"	v
+DOXYGEN_SQLITE3_OUTPUT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SQLITE3_OUTPUT sqlite3)$/;"	v
+DOXYGEN_SQLITE3_RECREATE_DB	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SQLITE3_RECREATE_DB YES)$/;"	v
+DOXYGEN_GENERATE_PERLMOD	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_PERLMOD NO)$/;"	v
+DOXYGEN_PERLMOD_LATEX	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PERLMOD_LATEX NO)$/;"	v
+DOXYGEN_PERLMOD_PRETTY	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_PERLMOD_PRETTY YES)$/;"	v
+DOXYGEN_ENABLE_PREPROCESSING	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ENABLE_PREPROCESSING YES)$/;"	v
+DOXYGEN_MACRO_EXPANSION	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MACRO_EXPANSION NO)$/;"	v
+DOXYGEN_EXPAND_ONLY_PREDEF	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXPAND_ONLY_PREDEF NO)$/;"	v
+DOXYGEN_SEARCH_INCLUDES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SEARCH_INCLUDES YES)$/;"	v
+DOXYGEN_SKIP_FUNCTION_MACROS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_SKIP_FUNCTION_MACROS YES)$/;"	v
+DOXYGEN_ALLEXTERNALS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_ALLEXTERNALS NO)$/;"	v
+DOXYGEN_EXTERNAL_GROUPS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_GROUPS YES)$/;"	v
+DOXYGEN_EXTERNAL_PAGES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_EXTERNAL_PAGES YES)$/;"	v
+DOXYGEN_HIDE_UNDOC_RELATIONS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HIDE_UNDOC_RELATIONS YES)$/;"	v
+DOXYGEN_HAVE_DOT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_HAVE_DOT YES)$/;"	v
+DOXYGEN_DOT_NUM_THREADS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_NUM_THREADS 0)$/;"	v
+DOXYGEN_DOT_COMMON_ATTR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_COMMON_ATTR "fontname=Helvetica,fontsize=10")$/;"	v
+DOXYGEN_DOT_EDGE_ATTR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_EDGE_ATTR "labelfontname=Helvetica,labelfontsize=10")$/;"	v
+DOXYGEN_DOT_NODE_ATTR	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_NODE_ATTR "shape=box,height=0.2,width=0.4")$/;"	v
+DOXYGEN_CLASS_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CLASS_GRAPH YES)$/;"	v
+DOXYGEN_COLLABORATION_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_COLLABORATION_GRAPH YES)$/;"	v
+DOXYGEN_GROUP_GRAPHS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GROUP_GRAPHS YES)$/;"	v
+DOXYGEN_UML_LOOK	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_UML_LOOK NO)$/;"	v
+DOXYGEN_UML_LIMIT_NUM_FIELDS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_UML_LIMIT_NUM_FIELDS 10)$/;"	v
+DOXYGEN_DOT_UML_DETAILS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_UML_DETAILS NO)$/;"	v
+DOXYGEN_DOT_WRAP_THRESHOLD	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_WRAP_THRESHOLD 17)$/;"	v
+DOXYGEN_TEMPLATE_RELATIONS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_TEMPLATE_RELATIONS NO)$/;"	v
+DOXYGEN_INCLUDE_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INCLUDE_GRAPH YES)$/;"	v
+DOXYGEN_INCLUDED_BY_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INCLUDED_BY_GRAPH YES)$/;"	v
+DOXYGEN_CALL_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CALL_GRAPH NO)$/;"	v
+DOXYGEN_CALLER_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_CALLER_GRAPH NO)$/;"	v
+DOXYGEN_GRAPHICAL_HIERARCHY	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GRAPHICAL_HIERARCHY YES)$/;"	v
+DOXYGEN_DIRECTORY_GRAPH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DIRECTORY_GRAPH YES)$/;"	v
+DOXYGEN_DIR_GRAPH_MAX_DEPTH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DIR_GRAPH_MAX_DEPTH 1)$/;"	v
+DOXYGEN_DOT_IMAGE_FORMAT	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_IMAGE_FORMAT png)$/;"	v
+DOXYGEN_INTERACTIVE_SVG	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_INTERACTIVE_SVG NO)$/;"	v
+DOXYGEN_DOT_GRAPH_MAX_NODES	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_GRAPH_MAX_NODES 50)$/;"	v
+DOXYGEN_MAX_DOT_GRAPH_DEPTH	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_MAX_DOT_GRAPH_DEPTH 0)$/;"	v
+DOXYGEN_DOT_MULTI_TARGETS	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_MULTI_TARGETS NO)$/;"	v
+DOXYGEN_GENERATE_LEGEND	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_GENERATE_LEGEND YES)$/;"	v
+DOXYGEN_DOT_CLEANUP	cmake-build/CMakeDoxygenDefaults.cmake	/^    set(DOXYGEN_DOT_CLEANUP YES)$/;"	v
+default_target	cmake-build/Makefile	/^default_target: all$/;"	t
+%	cmake-build/Makefile	/^% : %,v$/;"	t
+%	cmake-build/Makefile	/^% : RCS\/%$/;"	t
+%	cmake-build/Makefile	/^% : RCS\/%,v$/;"	t
+%	cmake-build/Makefile	/^% : SCCS\/s.%$/;"	t
+%	cmake-build/Makefile	/^% : s.%$/;"	t
+$(VERBOSE)MAKESILENT	cmake-build/Makefile	/^$(VERBOSE)MAKESILENT = -s$/;"	m
+$(VERBOSE).SILENT	cmake-build/Makefile	/^$(VERBOSE).SILENT:$/;"	t
+cmake_force	cmake-build/Makefile	/^cmake_force:$/;"	t
+SHELL	cmake-build/Makefile	/^SHELL = \/bin\/sh$/;"	m
+CMAKE_COMMAND	cmake-build/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+RM	cmake-build/Makefile	/^RM = \/usr\/bin\/cmake -E rm -f$/;"	m
+EQUALS	cmake-build/Makefile	/^EQUALS = =$/;"	m
+EQUALS	cmake-build/Makefile	/^EQUALS = =$/;"	m
+CMAKE_SOURCE_DIR	cmake-build/Makefile	/^CMAKE_SOURCE_DIR = \/home\/ubuntu\/hsrini103\/svp_refactor\/tasecureapi\/reference$/;"	m
+CMAKE_BINARY_DIR	cmake-build/Makefile	/^CMAKE_BINARY_DIR = \/home\/ubuntu\/hsrini103\/svp_refactor\/tasecureapi\/reference\/cmake-build$/;"	m
+test	cmake-build/Makefile	/^test:$/;"	t
+test/fast	cmake-build/Makefile	/^test\/fast: test$/;"	t
+edit_cache	cmake-build/Makefile	/^edit_cache:$/;"	t
+edit_cache/fast	cmake-build/Makefile	/^edit_cache\/fast: edit_cache$/;"	t
+rebuild_cache	cmake-build/Makefile	/^rebuild_cache:$/;"	t
+rebuild_cache/fast	cmake-build/Makefile	/^rebuild_cache\/fast: rebuild_cache$/;"	t
+list_install_components	cmake-build/Makefile	/^list_install_components:$/;"	t
+list_install_components/fast	cmake-build/Makefile	/^list_install_components\/fast: list_install_components$/;"	t
+install	cmake-build/Makefile	/^install: preinstall$/;"	t
+install/fast	cmake-build/Makefile	/^install\/fast: preinstall\/fast$/;"	t
+install/local	cmake-build/Makefile	/^install\/local: preinstall$/;"	t
+install/local/fast	cmake-build/Makefile	/^install\/local\/fast: preinstall\/fast$/;"	t
+install/strip	cmake-build/Makefile	/^install\/strip: preinstall$/;"	t
+install/strip/fast	cmake-build/Makefile	/^install\/strip\/fast: preinstall\/fast$/;"	t
+all	cmake-build/Makefile	/^all: cmake_check_build_system$/;"	t
+clean	cmake-build/Makefile	/^clean:$/;"	t
+clean/fast	cmake-build/Makefile	/^clean\/fast: clean$/;"	t
+preinstall	cmake-build/Makefile	/^preinstall: all$/;"	t
+preinstall/fast	cmake-build/Makefile	/^preinstall\/fast:$/;"	t
+depend	cmake-build/Makefile	/^depend:$/;"	t
+gmock	cmake-build/Makefile	/^gmock: cmake_check_build_system$/;"	t
+gmock/fast	cmake-build/Makefile	/^gmock\/fast:$/;"	t
+gmock_main	cmake-build/Makefile	/^gmock_main: cmake_check_build_system$/;"	t
+gmock_main/fast	cmake-build/Makefile	/^gmock_main\/fast:$/;"	t
+gtest	cmake-build/Makefile	/^gtest: cmake_check_build_system$/;"	t
+gtest/fast	cmake-build/Makefile	/^gtest\/fast:$/;"	t
+gtest_main	cmake-build/Makefile	/^gtest_main: cmake_check_build_system$/;"	t
+gtest_main/fast	cmake-build/Makefile	/^gtest_main\/fast:$/;"	t
+saclient	cmake-build/Makefile	/^saclient: cmake_check_build_system$/;"	t
+saclient/fast	cmake-build/Makefile	/^saclient\/fast:$/;"	t
+saclient_clangformat	cmake-build/Makefile	/^saclient_clangformat: cmake_check_build_system$/;"	t
+saclient_clangformat/fast	cmake-build/Makefile	/^saclient_clangformat\/fast:$/;"	t
+clangformat	cmake-build/Makefile	/^clangformat: cmake_check_build_system$/;"	t
+clangformat/fast	cmake-build/Makefile	/^clangformat\/fast:$/;"	t
+saclienttest	cmake-build/Makefile	/^saclienttest: cmake_check_build_system$/;"	t
+saclienttest/fast	cmake-build/Makefile	/^saclienttest\/fast:$/;"	t
+saclienttest_clangformat	cmake-build/Makefile	/^saclienttest_clangformat: cmake_check_build_system$/;"	t
+saclienttest_clangformat/fast	cmake-build/Makefile	/^saclienttest_clangformat\/fast:$/;"	t
+saclientdocs	cmake-build/Makefile	/^saclientd

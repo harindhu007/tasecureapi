@@ -15,7 +15,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include "buffer.h"
 #include "client_store.h"
 #include "common.h"
@@ -125,10 +124,10 @@ sa_status ta_sa_svp_key_check(
 
         status = SA_STATUS_OK;
     } while (false);
-
+#ifndef DISABLE_SVP
     if (in_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), in->context.svp.buffer, in_svp, caller_uuid);
-
+#endif
     stored_key_free(stored_key);
     client_store_release(client_store, client_slot, client, caller_uuid);
 
