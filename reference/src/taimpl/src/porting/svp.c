@@ -15,7 +15,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include "porting/svp.h" // NOLINT
 #include "digest.h"
 #include "log.h"
@@ -31,6 +30,7 @@ struct svp_buffer_s {
     size_t size;
 };
 
+#ifndef DISABLE_SVP
 static bool svp_validate_buffer(const svp_buffer_t* svp_buffer) {
     if (svp_buffer == NULL) {
         ERROR("NULL svp_buffer");
@@ -234,7 +234,7 @@ bool svp_copy(
     }
     return true;
 }
-
+#endif
 bool svp_key_check(
         uint8_t* in_bytes,
         size_t bytes_to_process,
@@ -292,7 +292,7 @@ bool svp_key_check(
 
     return status;
 }
-
+#ifndef DISABLE_SVP
 bool svp_digest(
         void* out,
         size_t* out_length,
@@ -349,3 +349,4 @@ size_t svp_get_size(const svp_buffer_t* svp_buffer) {
 
     return svp_buffer->size;
 }
+#endif

@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+#ifndef DISABLE_SVP
 #include "client.h"
 #include "log.h"
 #include "sa.h"
@@ -87,3 +87,4 @@ sa_status sa_svp_buffer_copy(
     RELEASE_PARAM(param1);
     return status;
 }
+#endif // DISABLE_SVP

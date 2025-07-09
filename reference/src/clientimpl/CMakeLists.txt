@@ -34,6 +34,11 @@ else()
     message("clang-tidy disabled")
 endif ()
 
+if (DEFINED DISABLE_SVP)
+	set(CMAKE_CXX_FLAGS "-DDISABLE_SVP ${CMAKE_CXX_FLAGS}")
+	set(CMAKE_C_FLAGS "-DDISABLE_SVP ${CMAKE_C_FLAGS}")
+endif ()
+
 set(CMAKE_CXX_FLAGS "-D_GNU_SOURCE -fPIC ${CMAKE_CXX_FLAGS}")
 set(CMAKE_C_FLAGS "-D_GNU_SOURCE -fPIC ${CMAKE_C_FLAGS}")
 
@@ -44,6 +49,54 @@ endif ()
 include_directories(AFTER SYSTEM ${CMAKE_CURRENT_SOURCE_DIR}/../../include)
 find_package(Threads REQUIRED)
 
+if (DEFINED DISABLE_SVP)
+add_library(saclientimpl STATIC
+        src/internal/client.c
+        src/internal/client.h
+	#src/porting/sa_svp_memory_alloc.c
+	#src/porting/sa_svp_memory_free.c
+        src/porting/ta_client.c
+        src/porting/ta_client.h
+        src/porting/sa_key_provision_impl.c
+        src/sa_crypto_cipher_init.c
+        src/sa_crypto_cipher_process.c
+        src/sa_crypto_cipher_process_last.c
+        src/sa_crypto_cipher_release.c
+        src/sa_crypto_cipher_update_iv.c
+        src/sa_crypto_mac_compute.c
+        src/sa_crypto_mac_init.c
+        src/sa_crypto_mac_process.c
+        src/sa_crypto_mac_process_key.c
+        src/sa_crypto_mac_release.c
+        src/sa_crypto_random.c
+        src/sa_crypto_sign.c
+        src/sa_get_device_id.c
+        src/sa_get_name.c
+        src/sa_get_ta_uuid.c
+        src/sa_get_version.c
+        src/sa_key_derive.c
+        src/sa_key_provision.c
+        src/sa_key_digest.c
+        src/sa_key_exchange.c
+        src/sa_key_export.c
+        src/sa_key_generate.c
+        src/sa_key_get_public.c
+        src/sa_key_header.c
+        src/sa_key_import.c
+        src/sa_key_release.c
+        src/sa_key_unwrap.c
+        src/sa_process_common_encryption.c
+	src/sa_svp_buffer_check.c
+	#src/sa_svp_buffer_alloc.c
+	#src/sa_svp_buffer_copy.c
+	#src/sa_svp_buffer_free.c
+	#src/sa_svp_buffer_release.c
+	#src/sa_svp_buffer_write.c
+	src/sa_svp_key_check.c
+	src/sa_svp_supported.c
+	#src/sa_svp_buffer_create.c
+        )
+else ()
 add_library(saclientimpl STATIC
         src/internal/client.c
         src/internal/client.h
@@ -90,6 +143,7 @@ add_library(saclientimpl STATIC
         src/sa_svp_supported.c
         src/sa_svp_buffer_create.c
         )
+endif()
 
 target_include_directories(saclientimpl
         PRIVATE

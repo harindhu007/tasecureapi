@@ -70,3 +70,5 @@ bool video_output_poll(video_output_state_t* state);
 #endif
 
 #endif // VIDEO_OUTPUT_H
+
+

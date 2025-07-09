@@ -199,7 +199,7 @@ namespace {
         // Verify the decryption.
         ASSERT_TRUE(verify_decrypt(out_buffer.get(), clear));
     }
-
+#ifndef DISABLE_SVP
     TEST_P(SaCryptoCipherWithoutSvpTest, processChacha20Poly1305FailsInvalidOutLength) {
         sa_cipher_mode const cipher_mode = std::get<0>(GetParam());
         auto clear_key = random(SYM_256_KEY_SIZE);
@@ -301,4 +301,5 @@ namespace {
         status = sa_crypto_cipher_process(out_buffer.get(), *cipher, in_buffer.get(), &bytes_to_process);
         ASSERT_EQ(status, SA_STATUS_OPERATION_NOT_ALLOWED);
     }
+#endif // DISABLE_SVP
 } // namespace

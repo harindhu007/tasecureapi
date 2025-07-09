@@ -44,6 +44,11 @@ if (DEFINED DISABLE_CENC_TIMING)
     set(CMAKE_C_FLAGS "-DDISABLE_CENC_TIMING ${CMAKE_C_FLAGS}")
 endif ()
 
+if (DEFINED DISABLE_SVP)
+	set(CMAKE_CXX_FLAGS "-DDISABLE_SVP ${CMAKE_CXX_FLAGS}")
+	set(CMAKE_C_FLAGS "-DDISABLE_SVP ${CMAKE_C_FLAGS}")
+endif ()
+
 add_subdirectory(client)
 add_subdirectory(clientimpl)
 add_subdirectory(taimpl)

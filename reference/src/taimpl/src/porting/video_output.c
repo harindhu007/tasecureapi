@@ -15,7 +15,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+//#ifndef DISABLE_SVP
 #include "porting/video_output.h" // NOLINT
 #include "log.h"
 #include <memory.h>
@@ -29,7 +29,11 @@ static struct {
                 .digital_unprotected_count = 0,
                 .digital_hdcp14_count = 0,
                 .digital_hdcp22_count = 1,
+#ifndef DISABLE_SVP
                 .svp_enabled = true}};
+#else
+                .svp_enabled = false}};
+#endif
 
 bool video_output_poll(video_output_state_t* state) {
 
@@ -42,3 +46,4 @@ bool video_output_poll(video_output_state_t* state) {
 
     return true;
 }
+//#endif // DISABLE_SVP

@@ -217,7 +217,6 @@ static sa_status ta_sa_crypto_cipher_process_rsa_pkcs1v15(
     *bytes_to_process = out_length;
     return status;
 }
-
 static sa_status ta_sa_crypto_cipher_process_rsa_oaep(
         void* out,
         size_t out_length,
@@ -522,24 +521,32 @@ sa_status ta_sa_crypto_cipher_process(
         }
 
         if (out != NULL) {
-            if (in->buffer_type == SA_BUFFER_TYPE_SVP)
+            if (in->buffer_type == SA_BUFFER_TYPE_SVP) {
+#ifndef DISABLE_SVP
                 in->context.svp.offset += in_length;
-            else
+#endif
+	    } else {
                 in->context.clear.offset += in_length;
+	    }
 
-            if (out->buffer_type == SA_BUFFER_TYPE_SVP)
+            if (out->buffer_type == SA_BUFFER_TYPE_SVP) {
+#ifndef DISABLE_SVP
+                //in->context.svp.offset += in_length;
                 out->context.svp.offset += *bytes_to_process;
-            else
+#endif
+	    } else {
                 out->context.clear.offset += *bytes_to_process;
+	    }
         }
     } while (false);
 
+#ifndef DISABLE_SVP
     if (in_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), in->context.svp.buffer, in_svp, caller_uuid);
 
     if (out_svp != NULL)
         svp_store_release_exclusive(client_get_svp_store(client), out->context.svp.buffer, out_svp, caller_uuid);
-
+#endif
     if (cipher != NULL)
         cipher_store_release_exclusive(cipher_store, context, cipher, caller_uuid);
 

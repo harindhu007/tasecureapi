@@ -172,6 +172,7 @@ bool SaCipherCryptoBase::verify_encrypt(
         // Since we are not calling sa_crypto_cipher_process_last, the padding/tag is not added. Change the mode so that
         // openssl doesn't expect the padding to be there.
         if (!padded) {
+	    ERROR("decrypt padded");
             if (parameters.cipher_algorithm == SA_CIPHER_ALGORITHM_AES_CBC_PKCS7)
                 parameters.cipher_algorithm = SA_CIPHER_ALGORITHM_AES_CBC;
             else if (parameters.cipher_algorithm == SA_CIPHER_ALGORITHM_AES_ECB_PKCS7)
@@ -182,8 +183,12 @@ bool SaCipherCryptoBase::verify_encrypt(
         }
 
         auto decrypted = decrypt_openssl(encrypted_data, parameters);
-        if (decrypted.empty())
+	ERROR("Clear: ", clear.size());
+	ERROR("Decrypted: ", decrypted.size());
+        if (decrypted.empty()) {
+	    ERROR("decrypt empty");
             return false;
+	}
 
         return decrypted == clear;
     }
@@ -199,7 +204,25 @@ bool SaCipherCryptoBase::verify_decrypt(
     if (decrypted->buffer_type == SA_BUFFER_TYPE_CLEAR) {
         std::vector<uint8_t> const decrypted_data = {static_cast<uint8_t*>(decrypted->context.clear.buffer),
                 static_cast<uint8_t*>(decrypted->context.clear.buffer) + clear.size()};
-
+	
+	ERROR("Clear    : %d", clear.size());
+	ERROR("Decrypted: %d", decrypted_data.size());
+	  std::cout << "Decrypted: [";
+    for (size_t i = 0; i < decrypted_data.size(); ++i) {
+        std::cout << std::setw(2) << std::setfill('0') << std::hex << static_cast<int>(decrypted_data[i]);
+        if (i < decrypted_data.size() - 1) {
+            std::cout << " ";
+        }
+    }
+    std::cout << "]" << std::endl;
+	  std::cout << "clear:     [";
+    for (size_t i = 0; i < clear.size(); ++i) {
+        std::cout << std::setw(2) << std::setfill('0') << std::hex << static_cast<int>(clear[i]);
+        if (i < clear.size() - 1) {
+            std::cout << " ";
+        }
+    }
+    std::cout << "]" << std::endl;
         return decrypted_data == clear;
     }
 
@@ -449,7 +472,6 @@ bool SaCipherCryptoBase::ec_is_valid_x_coordinate(
                    context.get()) == 1;
 #endif
 }
-
 void SaCryptoCipherDecryptTest::SetUp() {
     if (sa_svp_supported() == SA_STATUS_OPERATION_NOT_SUPPORTED && std::get<3>(GetParam()) == SA_BUFFER_TYPE_SVP)
         GTEST_SKIP() << "SVP not supported. Skipping all SVP tests";

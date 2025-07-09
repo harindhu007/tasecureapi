@@ -470,6 +470,7 @@ typedef struct {
     uint8_t api_version;
 } sa_svp_supported_s;
 
+#ifndef DISABLE_SVP
 // sa_svp_buffer_create
 // param[0] INOUT - sa_svp_buffer
 typedef struct {
@@ -511,7 +512,7 @@ typedef struct {
     sa_svp_buffer out;
     sa_svp_buffer in;
 } sa_svp_buffer_copy_s;
-
+#endif
 // sa_svp_key_check
 // param[0] INOUT - sa_svp_key_check_s
 // param[1] IN - in

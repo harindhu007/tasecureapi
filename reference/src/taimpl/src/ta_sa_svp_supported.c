@@ -15,7 +15,6 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
 #include "log.h"
 #include "svp_store.h"
 #include "ta_sa.h"
@@ -23,7 +22,9 @@
 sa_status ta_sa_svp_supported(
         ta_client client_slot,
         const sa_uuid* caller_uuid) {
-
+#ifdef DISABLE_SVP
+	return SA_STATUS_OPERATION_NOT_SUPPORTED;
+#endif
     if (caller_uuid == NULL) {
         ERROR("NULL caller_uuid: client_slot %d", client_slot);
         return SA_STATUS_NULL_PARAMETER;

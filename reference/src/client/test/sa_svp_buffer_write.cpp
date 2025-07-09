@@ -22,7 +22,7 @@
 #include "gtest/gtest.h"
 
 using namespace client_test_helpers;
-
+#ifndef DISABLE_SVP
 namespace {
     TEST_P(SaSvpBufferWriteTest, nominal) {
         auto offset_length = std::get<0>(GetParam());
@@ -97,3 +97,4 @@ namespace {
         ASSERT_EQ(status, SA_STATUS_NULL_PARAMETER);
     }
 } // namespace
+#endif //DISABLE_SVP

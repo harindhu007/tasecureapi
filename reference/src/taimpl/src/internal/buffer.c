@@ -56,6 +56,7 @@ sa_status convert_buffer(
     }
 
     if (buffer->buffer_type == SA_BUFFER_TYPE_SVP) {
+#ifndef DISABLE_SVP
         svp_store_t* svp_store = client_get_svp_store(client);
         sa_status status = svp_store_acquire_exclusive(svp, svp_store, buffer->context.svp.buffer, caller_uuid);
         if (status != SA_STATUS_OK) {
@@ -88,6 +89,7 @@ sa_status convert_buffer(
             ERROR("Integer overflow");
             return SA_STATUS_INVALID_PARAMETER;
         }
+#endif
     } else {
         if (buffer->context.clear.buffer == NULL) {
             ERROR("NULL buffer");
