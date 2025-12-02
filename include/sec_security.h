@@ -997,6 +997,9 @@ Sec_Result SecCipher_ProcessOpaqueWithMapAndPattern(Sec_CipherHandle* cipherHand
         SEC_SIZE inputSize, SEC_BOOL lastInput, SEC_MAP* map, SEC_SIZE mapLength, SEC_SIZE numEncryptedBlocks,
         SEC_SIZE numClearBlocks, Sec_OpaqueBufferHandle** opaqueBufferHandle, SEC_SIZE* bytesWritten);
 
+Sec_Result SecCipher_ProcessOpaqueWithMapAndHandle(Sec_CipherHandle* cipherHandle, SEC_BYTE* iv, uint32_t secureBufferHandle,
+        SEC_BYTE* input, SEC_SIZE inputSize, SEC_BOOL lastInput, SEC_MAP* map, SEC_SIZE mapLength, SEC_SIZE* bytesWritten);
+
 #ifdef __cplusplus
 }
 #endif

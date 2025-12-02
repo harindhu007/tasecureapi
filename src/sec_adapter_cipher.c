@@ -21,6 +21,7 @@
 #include "sa_cenc.h"
 #include <stdbool.h>
 
+
 #define RSA_OAEP_PADDING_SIZE 42
 
 struct Sec_CipherHandle_struct {
@@ -951,7 +952,7 @@ Sec_Result SecCipher_ProcessOpaqueWithMap(Sec_CipherHandle* cipherHandle, SEC_BY
     if (result != SEC_RESULT_SUCCESS) {
         SEC_LOG_ERROR("SecOpaqueBuffer_Malloc failed");
         return SEC_RESULT_FAILURE;
-    }
+}
 
     sa_subsample_length* subsample_lengths = malloc(mapLength * sizeof(sa_subsample_length));
     for (size_t i = 0; i < mapLength; i++) {
@@ -991,6 +992,7 @@ Sec_Result SecCipher_ProcessOpaqueWithMap(Sec_CipherHandle* cipherHandle, SEC_BY
     sa_status status = sa_invoke(cipherHandle->processorHandle, SA_PROCESS_COMMON_ENCRYPTION, (size_t) 1, &sample);
     SEC_FREE(subsample_lengths);
     if (status != SA_STATUS_OK) {
+	SEC_LOG_ERROR("Failed process encryption");
         SecOpaqueBuffer_Free(*opaqueBufferHandle);
         *opaqueBufferHandle = NULL;
         *bytesWritten = 0;
@@ -1089,6 +1091,111 @@ Sec_Result SecCipher_ProcessOpaqueWithMapAndPattern(Sec_CipherHandle* cipherHand
         *opaqueBufferHandle = NULL;
         *bytesWritten = 0;
         CHECK_STATUS(status)
+    }
+
+    *bytesWritten = out_buffer.context.svp.offset;
+    return SEC_RESULT_SUCCESS;
+}
+
+Sec_Result SecCipher_ProcessOpaqueWithMapAndHandle(Sec_CipherHandle* cipherHandle, SEC_BYTE* iv, uint32_t secureBufferHandle,
+        SEC_BYTE* input, SEC_SIZE inputSize, SEC_BOOL lastInput, SEC_MAP* map, SEC_SIZE mapLength, SEC_SIZE* bytesWritten) {
+
+    if (cipherHandle == NULL) {
+        SEC_LOG_ERROR("NULL cipherHandle");
+        return SEC_RESULT_FAILURE;
+    }
+
+    if (iv == NULL) {
+        SEC_LOG_ERROR("NULL iv");
+        return SEC_RESULT_FAILURE;
+    }
+
+    if (secureBufferHandle == 0) {
+        SEC_LOG_ERROR("Buffer Handle is 0");
+        return SEC_RESULT_FAILURE;
+    }
+
+    if (map == NULL) {
+        SEC_LOG_ERROR("NULL map");
+        return SEC_RESULT_FAILURE;
+    }
+
+    if (bytesWritten == NULL) {
+        SEC_LOG_ERROR("NULL bytesWritten");
+        return SEC_RESULT_FAILURE;
+    }
+
+    // wrap in a secapi2 adapter buffer
+    Sec_OpaqueBufferHandle* opaqueBufferHandle = NULL;
+    Sec_Result result = SecOpaqueBuffer_Create(&opaqueBufferHandle, (void*) secureBufferHandle, inputSize);
+    if (result != SEC_RESULT_SUCCESS) {
+        SEC_LOG_ERROR("SecOpaqueBuffer_Create failed with preallocated memory: %" PRIu32 "", secureBufferHandle);
+        return SEC_RESULT_FAILURE;
+    }
+
+    sa_subsample_length* subsample_lengths = malloc(mapLength * sizeof(sa_subsample_length));
+    for (size_t i = 0; i < mapLength; i++) {
+        subsample_lengths[i].bytes_of_clear_data = map[i].clear;
+        subsample_lengths[i].bytes_of_protected_data = map[i].encrypted;
+    }
+
+    sa_buffer out_buffer;
+    out_buffer.buffer_type = SA_BUFFER_TYPE_SVP;
+    out_buffer.context.svp.offset = 0;
+    out_buffer.context.svp.buffer = get_svp_buffer(cipherHandle->processorHandle, opaqueBufferHandle);
+    if (out_buffer.context.svp.buffer == INVALID_HANDLE) {
+        free(subsample_lengths);
+        SEC_LOG_ERROR("Failed create buffer from handle: %" PRIu32 "", secureBufferHandle);
+
+        // Memory is pre-allocated elsewhere so we don't wan't to free it, just
+        // release our handle to it.
+        Sec_ProtectedMemHandle* h = NULL;
+        SecOpaqueBuffer_Release(opaqueBufferHandle, &h);
+        opaqueBufferHandle = NULL;
+        *bytesWritten = 0;
+        return SEC_RESULT_FAILURE;
+    }
+
+    sa_buffer in_buffer;
+    in_buffer.buffer_type = SA_BUFFER_TYPE_CLEAR;
+    in_buffer.context.clear.buffer = input;
+    in_buffer.context.clear.length = inputSize;
+    in_buffer.context.clear.offset = 0;
+
+    sa_sample sample;
+    sample.iv = iv;
+    sample.iv_length = SEC_AES_BLOCK_SIZE;
+    sample.crypt_byte_block = 0;
+    sample.skip_byte_block = 0;
+    sample.subsample_count = mapLength;
+    sample.subsample_lengths = subsample_lengths;
+    sample.context = cipherHandle->cipher.context;
+    sample.out = &out_buffer;
+    sample.in = &in_buffer;
+
+    sa_status status = sa_invoke(cipherHandle->processorHandle, SA_PROCESS_COMMON_ENCRYPTION, (size_t) 1, &sample);
+    free(subsample_lengths);
+
+    if (status != SA_STATUS_OK) {
+        SEC_LOG_ERROR("Failed process encryption");
+        // Memory is pre-allocated elsewhere so we don't wan't to free it, just
+        // release our handle to it.
+        Sec_ProtectedMemHandle* h = NULL;
+        SecOpaqueBuffer_Release(opaqueBufferHandle, &h);
+
+        *bytesWritten = 0;
+        CHECK_STATUS(status)
+    }
+    else
+    {
+        // Higher layers will use the pre-allocated memory directly, not our buffer.
+        Sec_ProtectedMemHandle* h = NULL;
+        const Sec_Result r = SecOpaqueBuffer_Release(opaqueBufferHandle, &h);
+
+        if (r != SEC_RESULT_SUCCESS)
+        {
+            SEC_LOG_ERROR("Failed to release buffer from pre-allocated memory");
+        }
     }
 
     *bytesWritten = out_buffer.context.svp.offset;
